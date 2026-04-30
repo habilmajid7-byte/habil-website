@@ -1822,6 +1822,16 @@ footer {
     }
 }
 
+@media (max-width: 1200px) {
+    .hero { padding: 100px 32px 60px; }
+    .section { padding: 100px 32px; }
+    .section-title { font-size: 2.4rem; }
+    .footer-content { gap: 36px; }
+    .about-cards, .projects-grid, .skills-grid, .goals-container, .contact-container, .report-container {
+        gap: 28px;
+    }
+}
+
 @media (max-width: 1024px) {
     .hero-container {
         grid-template-columns: 1fr;
@@ -1829,20 +1839,20 @@ footer {
         gap: 60px;
     }
     .hero-title { font-size: 3rem; }
-    .hero-description { margin: 0 auto 32px; }
+    .hero-description { margin: 0 auto 32px; max-width: 100%; }
     .hero-buttons { justify-content: center; }
     .hero-stats { justify-content: center; }
     .profile-wrapper { width: 300px; height: 300px; }
     .profile-image { width: 220px; height: 220px; }
     .about-cards { grid-template-columns: 1fr; }
     .goals-container { grid-template-columns: 1fr; }
-    .contact-container { grid-template-columns: 1fr; gap: 40px; }
-    .report-container { grid-template-columns: 1fr; gap: 40px; }
+    .contact-container, .report-container { grid-template-columns: 1fr; gap: 40px; }
     .footer-content { grid-template-columns: 1fr 1fr; }
+    .project-image { height: 260px; }
 }
 
 @media (max-width: 768px) {
-    .navbar { padding: 16px 24px; }
+    .navbar { padding: 14px 18px; }
     .nav-links {
         position: fixed;
         top: 0;
@@ -1859,29 +1869,47 @@ footer {
     }
     .nav-links.active { right: 0; }
     .menu-toggle { display: flex; }
-    .hero { padding: 100px 24px 60px; }
+    .hero { padding: 90px 20px 50px; }
     .hero-title { font-size: 2.4rem; }
-    .hero-stats { gap: 24px; }
-    section { padding: 80px 24px; }
+    .hero-subtitle { font-size: 1.05rem; }
+    .hero-description { font-size: 1rem; }
+    .hero-buttons { flex-direction: column; gap: 14px; }
+    .btn { width: 100%; justify-content: center; }
+    .hero-stats { gap: 22px; }
+    section { padding: 70px 20px; }
     .section-title { font-size: 2rem; }
-    .whats-new-popup {
-        top: auto;
-        bottom: 100px;
-        right: 10px;
-        left: 10px;
-        max-width: none;
+    .profile-wrapper { width: 260px; height: 260px; }
+    .profile-image { width: 200px; height: 200px; }
+    .project-image { height: 240px; }
+    .project-info { padding: 20px; }
+    .contact-form, .report-form, .about-card, .skill-card, .goal-card, .footer-brand, .footer-links, .whats-new-popup {
+        padding: 24px;
     }
-    .footer-content { grid-template-columns: 1fr; text-align: center; }
-    .projects-grid { grid-template-columns: 1fr; }
-    .chatbot-window { width: calc(100vw - 20px); right: -10px; }
+    .contact-form, .report-form { padding: 28px; }
+    .chatbot-window { width: calc(100vw - 24px); right: 8px; }
+    .chatbot-input button { width: 50px; height: 50px; }
+    .chatbot-toggle { width: 56px; height: 56px; }
 }
 
 @media (max-width: 480px) {
-    .hero-title { font-size: 2rem; }
-    .hero-buttons { flex-direction: column; }
-    .btn { width: 100%; justify-content: center; }
-    .hero-stats { flex-wrap: wrap; justify-content: center; }
-    .skills-grid { grid-template-columns: 1fr; }
+    .navbar { padding: 12px 16px; }
+    .section { padding: 60px 16px; }
+    .hero { padding: 80px 16px 40px; }
+    .hero-title { font-size: 1.95rem; }
+    .hero-subtitle { font-size: 1rem; }
+    .hero-description { font-size: 1rem; }
+    .hero-buttons { gap: 12px; }
+    .hero-stats { flex-wrap: wrap; justify-content: center; gap: 18px; }
+    .project-image { height: 180px; }
+    .footer-content { grid-template-columns: 1fr; gap: 20px; }
+    .footer-links { text-align: center; }
+    .chatbot-window { width: calc(100vw - 16px); height: calc(100vh - 90px); right: 8px; }
+    .chatbot-input button { width: 48px; height: 48px; }
+    .chatbot-input input { font-size: 0.95rem; }
+    .scroll-top, .chatbot-toggle { bottom: 18px; right: 18px; }
+    .about-text p, .project-info p, .goal-content p, .contact-info > p, .report-info > p { font-size: 0.98rem; }
+    .form-group input, .form-group textarea, .report-form .form-group select, .file-label { font-size: 0.95rem; }
+    .project-card, .about-card, .skill-card, .goal-card, .contact-form, .report-form { width: 100%; }
 }</style>
 </head>
 <body>
