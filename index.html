@@ -5,15 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="color-scheme" content="dark">
     
     <!-- SEO Meta Tags -->
     <title>Habil Haji Majid | Personal Website v5.1</title>
     <meta name="description" content="Welcome to Habil Haji Majid's personal website. Discover academic achievements, skills, projects, and future aspirations of a dedicated student committed to excellence.">
     <meta name="keywords" content="Habil Haji Majid, student, portfolio, academic, projects, skills, education, personal website">
     <meta name="author" content="Habil Haji Majid">
-    <meta name="robots" content="index, follow">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta name="googlebot" content="index, follow">
+    <meta name="bingbot" content="index, follow">
     <link rel="canonical" href="https://habilmajid7-byte.github.io/habil-website/">
+    <meta name="subject" content="Habil Haji Majid - Academic Portfolio">
+    <meta name="rating" content="general">
+    <meta name="language" content="English">
     
     <!-- Open Graph / Social Media -->
     <meta property="og:type" content="website">
@@ -21,12 +26,15 @@
     <meta property="og:title" content="Habil Haji Majid | Personal Website v5.1">
     <meta property="og:description" content="Welcome to my personal website. Discover my academic journey, skills, projects, and aspirations.">
     <meta property="og:image" content="https://habilmajid7-byte.github.io/habil-website/og-image.png">
+    <meta property="og:image:alt" content="Habil Haji Majid - Personal Portfolio">
     <meta property="og:site_name" content="Habil Haji Majid">
+    <meta property="og:locale" content="en_US">
     
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Habil Haji Majid | Personal Website v5.1">
     <meta name="twitter:description" content="Welcome to my personal website. Discover my academic journey, skills, projects, and aspirations.">
+    <meta name="twitter:image:alt" content="Habil Haji Majid - Personal Portfolio">
     
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
@@ -34,13 +42,41 @@
     <link rel="apple-touch-icon" sizes="180x180" href="favicon.svg">
     <meta name="theme-color" content="#020309">
     
-    <!-- Fonts -->
+    <!-- Resource Hints for Performance -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+    <link rel="dns-prefetch" href="https://images.unsplash.com">
+    <link rel="dns-prefetch" href="https://0473aa7733.cbaul-cdnwnd.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&family=Outfit:wght@300;400;500;600;700;800&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    
+    <!-- Fonts - Optimized with font-display:swap -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Outfit:wght@300;400;500;600;700;800&family=Syne:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" as="style">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     
+    <link rel="preload" href="style.css" as="style">
     <link rel="stylesheet" href="style.css">
+    
+    <!-- Performance: Preload critical profile image for LCP -->
+    <link rel="preload" href="https://0473aa7733.cbaul-cdnwnd.com/56df75c58f19b6772e9fe87c73357754/200000024-39f1b39f1d/file_00000000230471f8ad7e588519238865.png?ph=0473aa7733" as="image">
+    
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Habil Haji Majid",
+        "url": "https://habilmajid7-byte.github.io/habil-website/",
+        "image": "https://0473aa7733.cbaul-cdnwnd.com/56df75c58f19b6772e9fe87c73357754/200000024-39f1b39f1d/file_00000000230471f8ad7e588519238865.png?ph=0473aa7733",
+        "description": "Academic portfolio of Habil Haji Majid, a dedicated student focused on academic excellence",
+        "sameAs": ["https://github.com/habilmajid7-byte"],
+        "jobTitle": "Student",
+        "email": "habilmajid7@gmail.com"
+    }
+    </script>
 <style>:root {
     --bg-primary: #0a0a0f;
     --bg-secondary: #0d0d14;
@@ -2152,8 +2188,11 @@ footer {
                     <div class="profile-ring delay-1"></div>
                     <div class="profile-ring delay-2"></div>
                     <img src="https://0473aa7733.cbaul-cdnwnd.com/56df75c58f19b6772e9fe87c73357754/200000024-39f1b39f1d/file_00000000230471f8ad7e588519238865.png?ph=0473aa7733" 
-                         alt="Habil Haji Majid" 
-                         class="profile-image">
+                         alt="Habil Haji Majid - Student Portrait" 
+                         class="profile-image"
+                         width="220"
+                         height="220"
+                         loading="lazy">
                 </div>
             </div>
         </div>
@@ -2220,7 +2259,11 @@ footer {
         <div class="projects-grid">
             <div class="project-card">
                 <div class="project-image">
-                    <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=600&h=400&fit=crop" alt="Math Notes">
+                    <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=600&h=400&fit=crop" 
+                         alt="Sequences & Series Mathematics Notes - Study Material" 
+                         width="600" 
+                         height="400" 
+                         loading="lazy">
                     <div class="project-overlay">
                         <a href="https://0473aa7733.cbaul-cdnwnd.com/56df75c58f19b6772e9fe87c73357754/200000036-c8fb2c8fb3/Sequences%20and%20Series%20Notes.pdf?ph=0473aa7733" target="_blank" class="project-link">
                             <i class="fas fa-external-link-alt"></i>
@@ -2239,7 +2282,11 @@ footer {
 
             <div class="project-card">
                 <div class="project-image">
-                    <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?w=600&h=400&fit=crop" alt="Portfolio">
+                    <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?w=600&h=400&fit=crop" 
+                         alt="Personal Portfolio Website - Web Development Project" 
+                         width="600" 
+                         height="400" 
+                         loading="lazy">
                     <div class="project-overlay">
                         <a href="https://habilmajid7-byte.github.io/nexgen-website/" target="_blank" class="project-link">
                             <i class="fas fa-external-link-alt"></i>
@@ -2259,7 +2306,11 @@ footer {
 
             <div class="project-card">
                 <div class="project-image">
-                    <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&h=400&fit=crop" alt="Academic">
+                    <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&h=400&fit=crop" 
+                         alt="Academic Dashboard - Data Analytics System" 
+                         width="600" 
+                         height="400" 
+                         loading="lazy">
                     <div class="project-overlay">
                         <a href="#" class="project-link">
                             <i class="fas fa-external-link-alt"></i>
@@ -2545,16 +2596,19 @@ footer {
     </div>
 
     <script>document.addEventListener('DOMContentLoaded', function() {
-    initPreloader();
-    initNavbar();
-    initMobileMenu();
-    initSmoothScroll();
-    initScrollTop();
-    initChatbot();
-    initWhatsNewPopup();
-    initCanvasBackground();
-    initReportForm();
-    initAnnouncement();
+    // Preload critical functions
+    requestAnimationFrame(() => {
+        initPreloader();
+        initNavbar();
+        initMobileMenu();
+        initSmoothScroll();
+        initScrollTop();
+        initChatbot();
+        initWhatsNewPopup();
+        initCanvasBackground();
+        initReportForm();
+        initAnnouncement();
+    });
 });
 
 function initPreloader() {
@@ -2702,13 +2756,24 @@ function initNavbar() {
     const navbar = document.getElementById('navbar');
     if (!navbar) return;
     
+    let lastScrollTime = 0;
+    let isScrolled = false;
+    
     window.addEventListener('scroll', function() {
-        if (window.scrollY > 50) {
-            navbar.classList.add('scrolled');
-        } else {
-            navbar.classList.remove('scrolled');
+        var now = Date.now();
+        if (now - lastScrollTime > 100) {
+            lastScrollTime = now;
+            var shouldBeScrolled = window.scrollY > 50;
+            if (shouldBeScrolled !== isScrolled) {
+                isScrolled = shouldBeScrolled;
+                if (isScrolled) {
+                    navbar.classList.add('scrolled');
+                } else {
+                    navbar.classList.remove('scrolled');
+                }
+            }
         }
-    });
+    }, { passive: true });
 }
 
 function initMobileMenu() {
@@ -2748,13 +2813,24 @@ function initScrollTop() {
     const scrollTop = document.getElementById('scrollTop');
     if (!scrollTop) return;
     
+    let lastScrollTime = 0;
+    let isVisible = false;
+    
     window.addEventListener('scroll', function() {
-        if (window.scrollY > 500) {
-            scrollTop.classList.add('visible');
-        } else {
-            scrollTop.classList.remove('visible');
+        var now = Date.now();
+        if (now - lastScrollTime > 100) {
+            lastScrollTime = now;
+            var shouldBeVisible = window.scrollY > 500;
+            if (shouldBeVisible !== isVisible) {
+                isVisible = shouldBeVisible;
+                if (isVisible) {
+                    scrollTop.classList.add('visible');
+                } else {
+                    scrollTop.classList.remove('visible');
+                }
+            }
         }
-    });
+    }, { passive: true });
     
     scrollTop.addEventListener('click', function() {
         window.scrollTo({
@@ -2917,9 +2993,14 @@ function initCanvasBackground() {
     const canvas = document.getElementById('bgCanvas');
     if (!canvas) return;
     
-    const ctx = canvas.getContext('2d');
+    const ctx = canvas.getContext('2d', { alpha: true });
+    if (!ctx) return;
+    
     var particles = [];
-    var particleCount = 60;
+    // Adaptive particle count based on device capability
+    var particleCount = window.innerWidth < 768 ? 30 : (window.innerWidth < 1024 ? 45 : 60);
+    var animationFrameId = null;
+    var lastResizeTime = 0;
     
     function resize() {
         canvas.width = window.innerWidth;
@@ -2941,7 +3022,7 @@ function initCanvasBackground() {
     }
     
     function getRandomColor() {
-        var colors = ['#00f5d4', '#7b2cbf', '#ff006e', '#00f5d4'];
+        var colors = ['#00f5d4', '#7b2cbf', '#ff006e'];
         return colors[Math.floor(Math.random() * colors.length)];
     }
     
@@ -2962,16 +3043,20 @@ function initCanvasBackground() {
             ctx.fillStyle = p.color;
             ctx.fill();
             
-            for (var j = i + 1; j < particles.length; j++) {
+            // Reduce connection checks on mobile
+            var checkLimit = window.innerWidth < 768 ? 8 : 12;
+            for (var j = i + 1; j < Math.min(i + checkLimit, particles.length); j++) {
                 var p2 = particles[j];
                 var dx = p.x - p2.x;
                 var dy = p.y - p2.y;
-                var distance = Math.sqrt(dx * dx + dy * dy);
+                var distSquared = dx * dx + dy * dy;
+                var distLimit = 22500; // 150^2
                 
-                if (distance < 150) {
+                if (distSquared < distLimit) {
                     ctx.beginPath();
                     ctx.moveTo(p.x, p.y);
                     ctx.lineTo(p2.x, p2.y);
+                    var distance = Math.sqrt(distSquared);
                     ctx.strokeStyle = 'rgba(0, 245, 212, ' + (1 - distance / 150) * 0.15 + ')';
                     ctx.lineWidth = 0.5;
                     ctx.stroke();
@@ -2979,16 +3064,30 @@ function initCanvasBackground() {
             }
         });
         
-        requestAnimationFrame(animate);
+        animationFrameId = requestAnimationFrame(animate);
     }
     
     resize();
     createParticles();
     animate();
     
+    // Throttled resize handler
     window.addEventListener('resize', function() {
-        resize();
-        createParticles();
+        var now = Date.now();
+        if (now - lastResizeTime > 250) {
+            lastResizeTime = now;
+            resize();
+            createParticles();
+        }
+    }, false);
+    
+    // Cleanup on visibility change
+    document.addEventListener('visibilitychange', function() {
+        if (document.hidden && animationFrameId) {
+            cancelAnimationFrame(animationFrameId);
+        } else if (!document.hidden) {
+            animate();
+        }
     });
 }
 
