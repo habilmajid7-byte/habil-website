@@ -2,3172 +2,687 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="color-scheme" content="dark">
-    
-    <!-- SEO Meta Tags -->
-    <title>Habil Haji Majid | Personal Website v5.1</title>
-    <meta name="description" content="Welcome to Habil Haji Majid's personal website. Discover academic achievements, skills, projects, and future aspirations of a dedicated student committed to excellence.">
-    <meta name="keywords" content="Habil Haji Majid, student, portfolio, academic, projects, skills, education, personal website">
-    <meta name="author" content="Habil Haji Majid">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta name="googlebot" content="index, follow">
-    <meta name="bingbot" content="index, follow">
-    <link rel="canonical" href="https://habilmajid7-byte.github.io/habil-website/">
-    <meta name="subject" content="Habil Haji Majid - Academic Portfolio">
-    <meta name="rating" content="general">
-    <meta name="language" content="English">
-    
-    <!-- Open Graph / Social Media -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://habilmajid7-byte.github.io/habil-website/">
-    <meta property="og:title" content="Habil Haji Majid | Personal Website v5.1">
-    <meta property="og:description" content="Welcome to my personal website. Discover my academic journey, skills, projects, and aspirations.">
-    <meta property="og:image" content="https://habilmajid7-byte.github.io/habil-website/og-image.png">
-    <meta property="og:image:alt" content="Habil Haji Majid - Personal Portfolio">
-    <meta property="og:site_name" content="Habil Haji Majid">
-    <meta property="og:locale" content="en_US">
-    
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Habil Haji Majid | Personal Website v5.1">
-    <meta name="twitter:description" content="Welcome to my personal website. Discover my academic journey, skills, projects, and aspirations.">
-    <meta name="twitter:image:alt" content="Habil Haji Majid - Personal Portfolio">
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="favicon.svg">
-    <link rel="alternate icon" href="favicon.svg">
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon.svg">
-    <meta name="theme-color" content="#020309">
-    
-    <!-- Resource Hints for Performance -->
-    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
-    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
-    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
-    <link rel="dns-prefetch" href="https://images.unsplash.com">
-    <link rel="dns-prefetch" href="https://0473aa7733.cbaul-cdnwnd.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
-    
-    <!-- Fonts - Optimized with font-display:swap -->
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Outfit:wght@300;400;500;600;700;800&family=Syne:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" as="style">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    
-    <link rel="preload" href="style.css" as="style">
-    <link rel="stylesheet" href="style.css">
-    
-    <!-- Performance: Preload critical profile image for LCP -->
-    <link rel="preload" href="https://0473aa7733.cbaul-cdnwnd.com/56df75c58f19b6772e9fe87c73357754/200000024-39f1b39f1d/file_00000000230471f8ad7e588519238865.png?ph=0473aa7733" as="image">
-    
-    <!-- Schema.org Structured Data -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "Habil Haji Majid",
-        "url": "https://habilmajid7-byte.github.io/habil-website/",
-        "image": "https://0473aa7733.cbaul-cdnwnd.com/56df75c58f19b6772e9fe87c73357754/200000024-39f1b39f1d/file_00000000230471f8ad7e588519238865.png?ph=0473aa7733",
-        "description": "Academic portfolio of Habil Haji Majid, a dedicated student focused on academic excellence",
-        "sameAs": ["https://github.com/habilmajid7-byte"],
-        "jobTitle": "Student",
-        "email": "habilmajid7@gmail.com"
-    }
-    </script>
-<style>:root {
-    --bg-primary: #0a0a0f;
-    --bg-secondary: #0d0d14;
-    --bg-card: rgba(20, 20, 30, 0.6);
-    --bg-glass: rgba(255, 255, 255, 0.03);
-    --accent-primary: #00f5d4;
-    --accent-secondary: #7b2cbf;
-    --accent-tertiary: #ff006e;
-    --accent-gradient: linear-gradient(135deg, #00f5d4, #7b2cbf, #ff006e);
-    --text-primary: #ffffff;
-    --text-secondary: rgba(255, 255, 255, 0.7);
-    --text-muted: rgba(255, 255, 255, 0.5);
-    --border-color: rgba(255, 255, 255, 0.08);
-    --border-hover: rgba(255, 255, 255, 0.15);
-    --glow-cyan: rgba(0, 245, 212, 0.4);
-    --glow-purple: rgba(123, 44, 191, 0.4);
-    --glow-pink: rgba(255, 0, 110, 0.4);
-    --success-color: #00d4aa;
-    --error-color: #ff4757;
-    --radius: 16px;
-    --radius-lg: 24px;
-    --radius-xl: 32px;
-}
+	<meta charset='utf-8'>
+<meta http-equiv='x-ua-compatible' content='ie=edge,chrome=1' />
+<meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1' />
+<title>Habeel Digital Headquaters</title>
+<meta name='description' content='Welcome to Habil Haji Majid's personal website. Discover academic achievements, skills, projects, and future aspirations of a dedicated student committed to excellence.' />
+<link rel='canonical' href='https://habilmajid7-byte.github.io/habil-website' /> 
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="https://www.ikuluzanzibar.go.tz/themes/user/site/css/bootstrap.min.css" media="screen" />	
+	<link rel="stylesheet" type="text/css" href="https://www.ikuluzanzibar.go.tz/themes/user/site/css/vendors.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="https://www.ikuluzanzibar.go.tz/themes/user/site/css/style.css" media="screen" />
+   <link href="c:\Users\Habeel\Pictures\Screenshots\Screenshot 2026-05-13 093005.png" rel="icon" type="image/png" />
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    scroll-behavior: smooth;
-    scroll-padding-top: 112px;
-}
-
-body {
-    font-family: 'Outfit', sans-serif;
-    background: var(--bg-primary);
-    color: var(--text-primary);
-    line-height: 1.7;
-    overflow-x: hidden;
-    min-height: 100vh;
-}
-
-#bgCanvas {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-    pointer-events: none;
-}
-
-.orb {
-    position: fixed;
-    border-radius: 50%;
-    filter: blur(100px);
-    opacity: 0.15;
-    pointer-events: none;
-    z-index: 0;
-    animation: float 20s ease-in-out infinite;
-}
-
-.orb-1 {
-    width: 600px;
-    height: 600px;
-    background: var(--accent-primary);
-    top: -200px;
-    right: -100px;
-}
-
-.orb-2 {
-    width: 500px;
-    height: 500px;
-    background: var(--accent-secondary);
-    bottom: -150px;
-    left: -100px;
-    animation-delay: -7s;
-}
-
-.orb-3 {
-    width: 400px;
-    height: 400px;
-    background: var(--accent-tertiary);
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    animation-delay: -14s;
-    opacity: 0.1;
-}
-
-@keyframes float {
-    0%, 100% { transform: translate(0, 0) scale(1); }
-    33% { transform: translate(30px, -40px) scale(1.05); }
-    66% { transform: translate(-20px, 20px) scale(0.95); }
-}
-
-.preloader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: 
-        radial-gradient(circle at 20% 80%, rgba(0, 245, 212, 0.15) 0%, transparent 50%),
-        radial-gradient(circle at 80% 20%, rgba(123, 44, 191, 0.15) 0%, transparent 50%),
-        radial-gradient(circle at 40% 40%, rgba(255, 0, 110, 0.1) 0%, transparent 50%),
-        linear-gradient(135deg, #020309 0%, #050713 45%, #04060d 100%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    z-index: 9999;
-    transition: opacity 1.2s cubic-bezier(0.4, 0, 0.2, 1), visibility 1.2s ease;
-}
-
-.preloader-bg {
-    position: absolute;
-    inset: 0;
-    overflow: hidden;
-}
-
-.particle {
-    position: absolute;
-    background: var(--accent-primary);
-    border-radius: 50%;
-    pointer-events: none;
-}
-
-.particle-1 { width: 4px; height: 4px; top: 20%; left: 10%; animation: float-1 8s ease-in-out infinite; }
-.particle-2 { width: 6px; height: 6px; top: 60%; left: 80%; animation: float-2 10s ease-in-out infinite; }
-.particle-3 { width: 3px; height: 3px; top: 40%; left: 60%; animation: float-3 12s ease-in-out infinite; }
-.particle-4 { width: 5px; height: 5px; top: 80%; left: 30%; animation: float-4 9s ease-in-out infinite; }
-.particle-5 { width: 4px; height: 4px; top: 10%; left: 70%; animation: float-5 11s ease-in-out infinite; }
-.particle-6 { width: 7px; height: 7px; top: 70%; left: 20%; animation: float-6 13s ease-in-out infinite; }
-.particle-7 { width: 3px; height: 3px; top: 30%; left: 90%; animation: float-7 7s ease-in-out infinite; }
-.particle-8 { width: 5px; height: 5px; top: 90%; left: 50%; animation: float-8 14s ease-in-out infinite; }
-
-.preloader::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background-image: linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px);
-    background-size: 90px 90px;
-    opacity: 0.16;
-    pointer-events: none;
-    animation: grid-move 20s linear infinite;
-}
-
-.preloader::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: 
-        radial-gradient(circle at center, rgba(0, 245, 212, 0.08) 0%, transparent 40%),
-        radial-gradient(circle at top right, rgba(72, 214, 255, 0.06) 0%, transparent 30%),
-        radial-gradient(circle at bottom left, rgba(255, 0, 110, 0.05) 0%, transparent 35%);
-    opacity: 0.25;
-    pointer-events: none;
-    animation: bg-pulse 4s ease-in-out infinite;
-}
-
-.preloader.hidden {
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-}
-
-.preloader-content {
-    position: relative;
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 28px;
-    max-width: 520px;
-    width: 92%;
-    padding: 0 12px;
-}
-
-.system-header {
-    display: flex;
-    align-items: center;
-    gap: 14px;
-    margin-bottom: 10px;
-}
-
-.system-icon {
-    font-size: 2rem;
-    color: var(--accent-primary);
-    animation: glow 2.2s ease-in-out infinite;
-}
-
-.system-title {
-    position: relative;
-    font-family: 'Orbitron', sans-serif;
-    font-size: 1.6rem;
-    font-weight: 700;
-    letter-spacing: 0.18em;
-    background: linear-gradient(135deg, #00f5d4, #48d6ff, #8a8dff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    margin: 0;
-    text-transform: uppercase;
-}
-
-.system-title::before,
-.system-title::after {
-    content: attr(data-text);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    opacity: 0.35;
-    color: #00f5d4;
-}
-
-.system-title::before {
-    left: 2px;
-    text-shadow: -2px 0 #0ff;
-    animation: glitch-clip 2.4s infinite ease-in-out both;
-}
-
-.system-title::after {
-    left: -2px;
-    text-shadow: 2px 0 #08f;
-    animation: glitch-clip-alt 2.8s infinite ease-in-out both;
-}
-
-.typing-text {
-    position: relative;
-    font-family: 'Orbitron', sans-serif;
-    font-size: 1.1rem;
-    color: #b8f7ff;
-    min-height: 1.6rem;
-    text-align: center;
-    letter-spacing: 0.04em;
-    border-right: 2px solid var(--accent-primary);
-    animation: blink 1s steps(2,end) infinite, flicker 4s linear infinite;
-    white-space: nowrap;
-    overflow: hidden;
-}
-
-@keyframes blink {
-    0%, 50% { border-color: var(--accent-primary); }
-    51%, 100% { border-color: transparent; }
-}
-
-.progress-container {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-}
-
-.progress-bar {
-    width: 100%;
-    height: 12px;
-    background: rgba(255,255,255,0.06);
-    border-radius: 999px;
-    overflow: hidden;
-    box-shadow: 
-        inset 0 0 18px rgba(0,245,212,0.2), 
-        0 0 20px rgba(0,245,212,0.1),
-        0 0 40px rgba(0,245,212,0.05);
-    position: relative;
-}
-
-.progress-fill {
-    height: 100%;
-    background: linear-gradient(90deg, #00f5d4, #48d6ff, #4da0ff, #8a8dff);
-    width: 0%;
-    transition: width 0.15s cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: 0 0 16px rgba(0,245,212,0.5);
-    position: relative;
-    overflow: hidden;
-}
-
-.progress-glow {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
-    animation: progress-shine 2s ease-in-out infinite;
-}
-
-.progress-particles {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.progress-particles span {
-    width: 3px;
-    height: 3px;
-    background: rgba(255,255,255,0.8);
-    border-radius: 50%;
-    animation: particle-float 1.5s ease-in-out infinite;
-}
-
-.progress-particles span:nth-child(1) { animation-delay: 0s; }
-.progress-particles span:nth-child(2) { animation-delay: 0.3s; }
-.progress-particles span:nth-child(3) { animation-delay: 0.6s; }
-.progress-particles span:nth-child(4) { animation-delay: 0.9s; }
-.progress-particles span:nth-child(5) { animation-delay: 1.2s; }
-
-.progress-text {
-    font-family: 'Orbitron', sans-serif;
-    font-size: 1rem;
-    font-weight: 600;
-    color: #7ef0ff;
-    letter-spacing: 0.08em;
-}
-
-.system-status {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
-
-.status-line {
-    position: relative;
-    font-family: 'Orbitron', sans-serif;
-    font-size: 0.95rem;
-    color: #8ad7ff;
-    opacity: 0.5;
-    transition: opacity 0.4s cubic-bezier(0.4, 0, 0.2, 1), color 0.4s ease;
-}
-
-.status-line::before {
-    content: '›';
-    display: inline-block;
-    margin-right: 10px;
-    color: rgba(0,245,212,0.7);
-    transition: color 0.3s ease;
-}
-
-.status-line.active {
-    opacity: 1;
-    color: #e5fbff;
-    text-shadow: 0 0 8px rgba(0,245,212,0.3);
-}
-
-.status-line.active::before {
-    color: var(--accent-primary);
-    text-shadow: 0 0 12px rgba(0,245,212,0.6);
-}
-
-.loading-pulse {
-    position: relative;
-    width: 60px;
-    height: 60px;
-    margin-top: 20px;
-}
-
-.pulse-ring {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 60px;
-    height: 60px;
-    border: 2px solid var(--accent-primary);
-    border-radius: 50%;
-    animation: pulse-expand 2s ease-out infinite;
-}
-
-.pulse-ring-2 {
-    animation-delay: 0.5s;
-    animation-duration: 2.5s;
-}
-
-.pulse-core {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 20px;
-    height: 20px;
-    background: var(--accent-primary);
-    border-radius: 50%;
-    box-shadow: 0 0 20px var(--glow-cyan);
-    animation: core-pulse 1.5s ease-in-out infinite;
-}
-
-@keyframes blink {
-    0%, 50% { border-color: var(--accent-primary); }
-    51%, 100% { border-color: transparent; }
-}
-
-@keyframes flicker {
-    0%, 100% { opacity: 1; }
-    4% { opacity: 0.85; }
-    6% { opacity: 0.92; }
-    8% { opacity: 0.72; }
-    10% { opacity: 0.98; }
-    20% { opacity: 0.9; }
-    23% { opacity: 0.95; }
-    25% { opacity: 0.8; }
-    30% { opacity: 0.98; }
-}
-
-@keyframes glitch-clip {
-    0% { clip-path: inset(0 0 0 0); transform: translate(0,0); }
-    7% { clip-path: inset(12% 0 85% 0); transform: translate(-2px, -1px); }
-    14% { clip-path: inset(85% 0 2% 0); transform: translate(2px, 1px); }
-    21% { clip-path: inset(0 0 20% 0); transform: translate(-1px, 1px); }
-    28% { clip-path: inset(15% 0 60% 0); transform: translate(1px, -1px); }
-    35% { clip-path: inset(0 0 0 0); transform: translate(0,0); }
-    100% { clip-path: inset(0 0 0 0); transform: translate(0,0); }
-}
-
-@keyframes glitch-clip-alt {
-    0% { clip-path: inset(0 0 0 0); transform: translate(0,0); }
-    8% { clip-path: inset(40% 0 45% 0); transform: translate(2px, 1px); }
-    18% { clip-path: inset(10% 0 70% 0); transform: translate(-2px, -1px); }
-    26% { clip-path: inset(65% 0 5% 0); transform: translate(1px, 0); }
-    34% { clip-path: inset(0 0 45% 0); transform: translate(-1px, 2px); }
-    45% { clip-path: inset(0 0 0 0); transform: translate(0,0); }
-    100% { clip-path: inset(0 0 0 0); transform: translate(0,0); }
-}
-
-@keyframes glow {
-    0%, 100% { 
-        text-shadow: 0 0 10px rgba(0,245,212,0.6), 0 0 20px rgba(0,245,212,0.3); 
-        transform: scale(1);
-    }
-    50% { 
-        text-shadow: 0 0 22px rgba(0,245,212,0.9), 0 0 40px rgba(72,214,255,0.6), 0 0 60px rgba(0,245,212,0.4);
-        transform: scale(1.02);
-    }
-}
-
-@keyframes grid-move {
-    0% { transform: translate(0, 0); }
-    100% { transform: translate(90px, 90px); }
-}
-
-@keyframes bg-pulse {
-    0%, 100% { opacity: 0.25; transform: scale(1); }
-    50% { opacity: 0.35; transform: scale(1.05); }
-}
-
-@keyframes float-1 {
-    0%, 100% { transform: translateY(0px) translateX(0px); opacity: 0.3; }
-    25% { transform: translateY(-20px) translateX(10px); opacity: 0.8; }
-    50% { transform: translateY(-10px) translateX(-5px); opacity: 0.6; }
-    75% { transform: translateY(-30px) translateX(15px); opacity: 0.9; }
-}
-
-@keyframes float-2 {
-    0%, 100% { transform: translateY(0px) translateX(0px); opacity: 0.4; }
-    33% { transform: translateY(25px) translateX(-15px); opacity: 0.7; }
-    66% { transform: translateY(10px) translateX(20px); opacity: 0.5; }
-}
-
-@keyframes float-3 {
-    0%, 100% { transform: translateY(0px) translateX(0px); opacity: 0.5; }
-    50% { transform: translateY(-15px) translateX(-10px); opacity: 0.8; }
-}
-
-@keyframes float-4 {
-    0%, 100% { transform: translateY(0px) translateX(0px); opacity: 0.3; }
-    40% { transform: translateY(20px) translateX(25px); opacity: 0.9; }
-    80% { transform: translateY(-5px) translateX(-10px); opacity: 0.6; }
-}
-
-@keyframes float-5 {
-    0%, 100% { transform: translateY(0px) translateX(0px); opacity: 0.4; }
-    30% { transform: translateY(-25px) translateX(5px); opacity: 0.7; }
-    60% { transform: translateY(15px) translateX(-20px); opacity: 0.8; }
-    90% { transform: translateY(-10px) translateX(30px); opacity: 0.5; }
-}
-
-@keyframes float-6 {
-    0%, 100% { transform: translateY(0px) translateX(0px); opacity: 0.6; }
-    25% { transform: translateY(30px) translateX(-25px); opacity: 0.9; }
-    75% { transform: translateY(-20px) translateX(15px); opacity: 0.4; }
-}
-
-@keyframes float-7 {
-    0%, 100% { transform: translateY(0px) translateX(0px); opacity: 0.3; }
-    50% { transform: translateY(-35px) translateX(20px); opacity: 0.8; }
-}
-
-@keyframes float-8 {
-    0%, 100% { transform: translateY(0px) translateX(0px); opacity: 0.5; }
-    20% { transform: translateY(25px) translateX(-30px); opacity: 0.7; }
-    70% { transform: translateY(-15px) translateX(10px); opacity: 0.9; }
-}
-
-@keyframes progress-shine {
-    0% { transform: translateX(-100%); }
-    50% { transform: translateX(100%); }
-    100% { transform: translateX(100%); }
-}
-
-@keyframes particle-float {
-    0%, 100% { transform: translateY(0px) scale(1); opacity: 0.8; }
-    50% { transform: translateY(-8px) scale(1.2); opacity: 1; }
-}
-
-@keyframes pulse-expand {
-    0% { 
-        transform: translate(-50%, -50%) scale(0.8); 
-        opacity: 1; 
-        border-color: var(--accent-primary);
-        box-shadow: 0 0 0 0 rgba(0,245,212,0.7);
-    }
-    70% { 
-        transform: translate(-50%, -50%) scale(1.4); 
-        opacity: 0.3; 
-        border-color: rgba(0,245,212,0.5);
-        box-shadow: 0 0 0 10px rgba(0,245,212,0);
-    }
-    100% { 
-        transform: translate(-50%, -50%) scale(2); 
-        opacity: 0; 
-        border-color: rgba(0,245,212,0.2);
-        box-shadow: 0 0 0 20px rgba(0,245,212,0);
-    }
-}
-
-@keyframes core-pulse {
-    0%, 100% { 
-        transform: translate(-50%, -50%) scale(1); 
-        box-shadow: 0 0 20px var(--glow-cyan);
-    }
-    50% { 
-        transform: translate(-50%, -50%) scale(1.1); 
-        box-shadow: 0 0 30px var(--glow-cyan), 0 0 50px rgba(0,245,212,0.3);
-    }
-}
-
-@media (max-width: 768px) {
-    .preloader-content { max-width: 92%; padding: 0 20px; }
-    .system-title { font-size: 1.35rem; }
-    .typing-text { font-size: 1rem; }
-    .progress-bar { height: 10px; }
-    .progress-text { font-size: 0.95rem; }
-    .loading-pulse { width: 50px; height: 50px; }
-    .pulse-ring { width: 50px; height: 50px; }
-    .pulse-core { width: 16px; height: 16px; }
-}
-
-@media (max-width: 480px) {
-    .system-title { font-size: 1.15rem; }
-    .typing-text { font-size: 0.95rem; }
-    .status-line { font-size: 0.82rem; }
-    .progress-bar { height: 8px; }
-    .loading-pulse { width: 40px; height: 40px; margin-top: 15px; }
-    .pulse-ring { width: 40px; height: 40px; }
-    .pulse-core { width: 12px; height: 12px; }
-}
-
-.announcement-bar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1002;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 16px;
-    padding: 0 20px;
-    min-height: 52px;
-    background: rgba(10, 10, 15, 0.92);
-    border-bottom: 1px solid rgba(255,255,255,0.08);
-    box-shadow: 0 10px 30px rgba(0,0,0,0.25);
-    overflow: hidden;
-}
-
-.announcement-text {
-    overflow: hidden;
-    flex: 1;
-    min-width: 0;
-}
-
-.announcement-text span {
-    display: inline-block;
-    color: #d8f7ff;
-    font-family: 'Orbitron', sans-serif;
-    font-size: 0.92rem;
-    letter-spacing: 0.08em;
-    white-space: nowrap;
-    animation: marquee 12s linear infinite;
-}
-
-.announcement-version {
-    display: inline-block;
-    font-weight: 800;
-    color: white;
-    margin: 0 0.25rem;
-    text-shadow: 0 0 16px rgba(0,245,212,0.8), 0 0 32px rgba(72,214,255,0.3);
-    background: rgba(0,245,212,0.12);
-    padding: 4px 10px;
-    border-radius: 999px;
-}
-
-.announcement-bar::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(90deg, transparent 0%, rgba(0,245,212,0.08) 20%, rgba(123,44,191,0.08) 50%, rgba(255,0,110,0.08) 80%, transparent 100%);
-    pointer-events: none;
-}
-
-.announcement-bell {
-    width: 46px;
-    height: 46px;
-    min-width: 46px;
-    border: 1px solid rgba(255,255,255,0.12);
-    border-radius: 50%;
-    background: rgba(255,255,255,0.06);
-    color: #e9f9ff;
-    font-size: 1.1rem;
-    cursor: pointer;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.25s ease;
-    position: relative;
-    z-index: 1;
-    box-shadow: 0 0 16px rgba(0,245,212,0.1);
-}
-
-.announcement-bell:hover {
-    box-shadow: 0 0 24px rgba(0,245,212,0.35);
-    transform: translateY(-1px);
-}
-
-.announcement-bell.active {
-    background: linear-gradient(135deg, #00f5d4, #48d6ff);
-    color: #020309;
-    box-shadow: 0 0 26px rgba(0,245,212,0.8), 0 0 40px rgba(72,214,255,0.25);
-}
-
-.announcement-toast {
-    position: fixed;
-    top: 70px;
-    right: 20px;
-    background: rgba(5, 10, 20, 0.95);
-    border: 1px solid rgba(0,245,212,0.18);
-    border-radius: 16px;
-    padding: 14px 18px;
-    color: #e6f9ff;
-    font-size: 0.95rem;
-    backdrop-filter: blur(16px);
-    opacity: 0;
-    transform: translateY(-10px);
-    transition: opacity 0.25s ease, transform 0.25s ease;
-    z-index: 1003;
-}
-
-.announcement-toast.show {
-    opacity: 1;
-    transform: translateY(0);
-}
-
-@keyframes marquee {
-    0% { transform: translateX(100%); }
-    100% { transform: translateX(-100%); }
-}
-
-.navbar {
-    position: fixed;
-    top: 56px;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-    padding: 20px 48px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: linear-gradient(180deg, rgba(10, 10, 15, 0.9) 0%, transparent 100%);
-    backdrop-filter: blur(10px);
-    transition: all 0.3s ease;
-}
-
-.navbar.scrolled {
-    background: rgba(10, 10, 15, 0.95);
-    padding: 15px 48px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    text-decoration: none;
-    font-family: 'Syne', sans-serif;
-    font-size: 1.5rem;
-    font-weight: 800;
-}
-
-.logo-icon {
-    font-size: 1.8rem;
-    background: var(--accent-gradient);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    animation: pulse 2s ease-in-out infinite;
-}
-
-@keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
-
-.logo-text {
-    background: var(--accent-gradient);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
-
-.nav-links {
-    display: flex;
-    gap: 40px;
-    list-style: none;
-}
-
-.nav-link {
-    color: var(--text-secondary);
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 0.95rem;
-    position: relative;
-    padding: 8px 0;
-    transition: color 0.3s ease;
-}
-
-.nav-link::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background: var(--accent-gradient);
-    transition: width 0.3s ease;
-    border-radius: 2px;
-}
-
-.nav-link:hover, .nav-link.active {
-    color: var(--text-primary);
-}
-
-.nav-link:hover::after, .nav-link.active::after {
-    width: 100%;
-}
-
-.menu-toggle {
-    display: none;
-    flex-direction: column;
-    gap: 6px;
-    cursor: pointer;
-    padding: 10px;
-    z-index: 1001;
-}
-
-.menu-toggle span {
-    width: 26px;
-    height: 2px;
-    background: var(--text-primary);
-    border-radius: 2px;
-    transition: all 0.3s ease;
-}
-
-.menu-toggle.active span:nth-child(1) { transform: rotate(45deg) translate(6px, 6px); }
-.menu-toggle.active span:nth-child(2) { opacity: 0; }
-.menu-toggle.active span:nth-child(3) { transform: rotate(-45deg) translate(6px, -6px); }
-
-.hero {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 120px 48px 80px;
-    position: relative;
-    z-index: 1;
-}
-
-.hero-container {
-    display: grid;
-    grid-template-columns: 1.2fr 1fr;
-    gap: 80px;
-    max-width: 1400px;
-    width: 100%;
-    align-items: center;
-}
-
-.hero-badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    padding: 8px 16px;
-    background: var(--bg-glass);
-    border: 1px solid var(--border-color);
-    border-radius: 50px;
-    font-size: 0.85rem;
-    color: var(--text-secondary);
-    margin-bottom: 24px;
-    backdrop-filter: blur(10px);
-}
-
-.badge-dot {
-    width: 8px;
-    height: 8px;
-    background: var(--accent-primary);
-    border-radius: 50%;
-    animation: blink 1.5s ease-in-out infinite;
-}
-
-@keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
-
-.hero-title {
-    font-family: 'Syne', sans-serif;
-    font-size: 4rem;
-    font-weight: 800;
-    line-height: 1.1;
-    margin-bottom: 16px;
-    letter-spacing: -0.02em;
-}
-
-.gradient-text {
-    background: var(--accent-gradient);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
-
-.hero-subtitle {
-    font-size: 1.3rem;
-    color: var(--text-secondary);
-    margin-bottom: 24px;
-    font-weight: 500;
-}
-
-.hero-description {
-    font-size: 1.1rem;
-    color: var(--text-muted);
-    max-width: 540px;
-    margin-bottom: 32px;
-    line-height: 1.8;
-}
-
-.hero-buttons {
-    display: flex;
-    gap: 16px;
-    margin-bottom: 48px;
-}
-
-.hero-stats {
-    display: flex;
-    gap: 40px;
-}
-
-.stat { text-align: center; }
-
-.stat-number {
-    display: block;
-    font-family: 'Syne', sans-serif;
-    font-size: 1.8rem;
-    font-weight: 700;
-    background: var(--accent-gradient);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
-
-.stat-label {
-    font-size: 0.85rem;
-    color: var(--text-muted);
-}
-
-.hero-visual {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.profile-wrapper {
-    position: relative;
-    width: 380px;
-    height: 380px;
-}
-
-.profile-glow {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 300px;
-    height: 300px;
-    background: var(--accent-gradient);
-    border-radius: 50%;
-    transform: translate(-50%, -50%);
-    filter: blur(80px);
-    opacity: 0.3;
-    animation: glow 3s ease-in-out infinite;
-}
-
-@keyframes glow {
-    0%, 100% { opacity: 0.3; transform: translate(-50%, -50%) scale(1); }
-    50% { opacity: 0.5; transform: translate(-50%, -50%) scale(1.1); }
-}
-
-.profile-ring {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 2px solid transparent;
-    border-top-color: var(--accent-primary);
-    border-radius: 50%;
-    animation: rotate 8s linear infinite;
-}
-
-.profile-ring.delay-1 { animation-delay: -2.5s; border-top-color: var(--accent-secondary); }
-.profile-ring.delay-2 { animation-delay: -5s; border-top-color: var(--accent-tertiary); }
-
-@keyframes rotate { to { transform: rotate(360deg); } }
-
-.profile-image {
-    width: 280px;
-    height: 280px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 4px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.scroll-indicator {
-    position: absolute;
-    bottom: 40px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    color: var(--text-muted);
-    font-size: 0.8rem;
-    animation: floatVertical 2s ease-in-out infinite;
-}
-
-.scroll-line {
-    width: 1px;
-    height: 40px;
-    background: linear-gradient(180deg, var(--accent-primary), transparent);
-}
-
-@keyframes floatVertical {
-    0%, 100% { transform: translateX(-50%) translateY(0); }
-    50% { transform: translateX(-50%) translateY(10px); }
-}
-
-.btn {
-    padding: 14px 28px;
-    border-radius: 12px;
-    font-weight: 600;
-    font-size: 0.95rem;
-    text-decoration: none;
-    transition: all 0.3s ease;
-    cursor: pointer;
-    border: none;
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    position: relative;
-    overflow: hidden;
-}
-
-.btn::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
-    transition: left 0.5s ease;
-}
-
-.btn:hover::before { left: 100%; }
-
-.btn-primary {
-    background: var(--accent-gradient);
-    color: white;
-    box-shadow: 0 4px 20px var(--glow-cyan);
-}
-
-.btn-primary:hover {
-    transform: translateY(-2px) scale(1.02);
-    box-shadow: 0 8px 30px var(--glow-cyan);
-}
-
-.btn-secondary {
-    background: var(--bg-glass);
-    color: var(--text-primary);
-    border: 1px solid var(--border-color);
-}
-
-.btn-secondary:hover {
-    background: rgba(255, 255, 255, 0.1);
-    border-color: var(--border-hover);
-    transform: translateY(-2px);
-}
-
-.whats-new-popup {
-    position: fixed;
-    top: 100px;
-    right: 20px;
-    background: var(--bg-card);
-    backdrop-filter: blur(20px);
-    border: 1px solid var(--border-color);
-    border-radius: var(--radius-lg);
-    padding: 24px;
-    z-index: 100;
-    max-width: 300px;
-    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
-    animation: slideIn 0.5s ease;
-}
-
-@keyframes slideIn {
-    from { opacity: 0; transform: translateX(20px); }
-    to { opacity: 1; transform: translateX(0); }
-}
-
-.popup-close {
-    position: absolute;
-    top: 12px;
-    right: 12px;
-    background: none;
-    border: none;
-    color: var(--text-muted);
-    font-size: 1.2rem;
-    cursor: pointer;
-    transition: color 0.3s ease;
-}
-
-.popup-close:hover { color: var(--text-primary); }
-
-.popup-icon {
-    font-size: 2rem;
-    margin-bottom: 12px;
-}
-
-.whats-new-popup h3 {
-    font-family: 'Syne', sans-serif;
-    margin-bottom: 16px;
-    background: var(--accent-gradient);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
-
-.whats-new-list {
-    list-style: none;
-}
-
-.whats-new-list li {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    padding: 10px 0;
-    color: var(--text-secondary);
-    border-bottom: 1px solid var(--border-color);
-    font-size: 0.9rem;
-}
-
-.whats-new-list li:last-child { border-bottom: none; }
-.whats-new-list i { color: var(--accent-primary); }
-
-section {
-    padding: 120px 48px;
-    position: relative;
-    z-index: 1;
-}
-
-.section-header {
-    text-align: center;
-    margin-bottom: 64px;
-}
-
-.section-tag {
-    display: inline-block;
-    padding: 6px 14px;
-    background: var(--bg-glass);
-    border: 1px solid var(--border-color);
-    border-radius: 50px;
-    font-size: 0.8rem;
-    color: var(--accent-primary);
-    margin-bottom: 16px;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-}
-
-.section-title {
-    font-family: 'Syne', sans-serif;
-    font-size: 2.8rem;
-    font-weight: 700;
-}
-
-.about {
-    background: linear-gradient(180deg, transparent, rgba(255, 255, 255, 0.02), transparent);
-}
-
-.about-content {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.about-text {
-    text-align: center;
-    max-width: 800px;
-    margin: 0 auto 48px;
-}
-
-.about-text p {
-    color: var(--text-secondary);
-    margin-bottom: 20px;
-    font-size: 1.1rem;
-    line-height: 1.9;
-}
-
-.about-cards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
-}
-
-.about-card {
-    background: var(--bg-card);
-    backdrop-filter: blur(20px);
-    border: 1px solid var(--border-color);
-    border-radius: var(--radius-lg);
-    padding: 32px;
-    text-align: center;
-    transition: all 0.3s ease;
-}
-
-.about-card:hover {
-    transform: translateY(-8px);
-    border-color: var(--border-hover);
-    box-shadow: 0 20px 40px rgba(0, 245, 212, 0.1);
-}
-
-.card-icon {
-    font-size: 2.5rem;
-    margin-bottom: 16px;
-    background: var(--accent-gradient);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
-
-.about-card h3 {
-    font-size: 1.3rem;
-    margin-bottom: 12px;
-}
-
-.about-card p {
-    color: var(--text-muted);
-    font-size: 0.95rem;
-}
-
-.projects {
-    background: rgba(255, 255, 255, 0.02);
-}
-
-.projects-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
-    gap: 28px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.project-card {
-    background: var(--bg-card);
-    backdrop-filter: blur(20px);
-    border: 1px solid var(--border-color);
-    border-radius: var(--radius-lg);
-    overflow: hidden;
-    transition: all 0.4s ease;
-}
-
-.project-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 24px 48px rgba(0, 245, 212, 0.15);
-}
-
-.project-image {
-    position: relative;
-    height: 220px;
-    overflow: hidden;
-}
-
-.project-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.5s ease;
-}
-
-.project-card:hover .project-image img { transform: scale(1.1); }
-
-.project-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.6);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
-
-.project-card:hover .project-overlay { opacity: 1; }
-
-.project-link {
-    width: 50px;
-    height: 50px;
-    background: var(--accent-gradient);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-size: 1.2rem;
-    text-decoration: none;
-    transform: scale(0);
-    transition: transform 0.3s ease;
-}
-
-.project-card:hover .project-link { transform: scale(1); }
-
-.project-info {
-    padding: 24px;
-}
-
-.project-info h3 {
-    font-size: 1.3rem;
-    margin-bottom: 10px;
-}
-
-.project-info p {
-    color: var(--text-muted);
-    font-size: 0.95rem;
-    margin-bottom: 16px;
-}
-
-.project-tags {
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-}
-
-.project-tags span {
-    padding: 6px 12px;
-    background: var(--bg-glass);
-    border: 1px solid var(--border-color);
-    border-radius: 8px;
-    font-size: 0.8rem;
-    color: var(--accent-primary);
-}
-
-.skills {
-    background: linear-gradient(180deg, transparent, rgba(255, 255, 255, 0.02), transparent);
-}
-
-.skills-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 24px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.skill-card {
-    background: var(--bg-card);
-    backdrop-filter: blur(20px);
-    border: 1px solid var(--border-color);
-    border-radius: var(--radius-lg);
-    padding: 28px;
-    transition: all 0.3s ease;
-}
-
-.skill-card:hover {
-    transform: translateY(-6px);
-    border-color: var(--accent-primary);
-    box-shadow: 0 16px 32px var(--glow-cyan);
-}
-
-.skill-icon {
-    font-size: 2.2rem;
-    margin-bottom: 16px;
-    color: var(--accent-primary);
-}
-
-.skill-card h3 {
-    font-size: 1.2rem;
-    margin-bottom: 8px;
-}
-
-.skill-card p {
-    color: var(--text-muted);
-    font-size: 0.9rem;
-    margin-bottom: 16px;
-}
-
-.skill-bar {
-    height: 6px;
-    background: var(--bg-glass);
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-.skill-progress {
-    height: 100%;
-    background: var(--accent-gradient);
-    border-radius: 10px;
-    transition: width 1s ease;
-}
-
-.goals {
-    background: rgba(255, 255, 255, 0.02);
-}
-
-.goals-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 24px;
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-.goal-card {
-    background: var(--bg-card);
-    backdrop-filter: blur(20px);
-    border: 1px solid var(--border-color);
-    border-radius: var(--radius-lg);
-    padding: 32px;
-    display: flex;
-    gap: 24px;
-    transition: all 0.3s ease;
-}
-
-.goal-card:hover {
-    transform: translateX(8px);
-    border-color: var(--accent-secondary);
-    box-shadow: 0 16px 32px var(--glow-purple);
-}
-
-.goal-number {
-    font-family: 'Syne', sans-serif;
-    font-size: 2rem;
-    font-weight: 800;
-    background: var(--accent-gradient);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    flex-shrink: 0;
-}
-
-.goal-content h3 {
-    font-size: 1.3rem;
-    margin-bottom: 10px;
-}
-
-.goal-content p {
-    color: var(--text-muted);
-    font-size: 0.95rem;
-    line-height: 1.7;
-}
-
-.contact {
-    background: linear-gradient(180deg, transparent, rgba(255, 255, 255, 0.02), transparent);
-}
-
-.contact-container {
-    display: grid;
-    grid-template-columns: 1fr 1.2fr;
-    gap: 60px;
-    max-width: 1100px;
-    margin: 0 auto;
-}
-
-.contact-info h3 {
-    font-family: 'Syne', sans-serif;
-    font-size: 1.8rem;
-    margin-bottom: 16px;
-}
-
-.contact-info > p {
-    color: var(--text-muted);
-    margin-bottom: 32px;
-}
-
-.contact-items { margin-bottom: 32px; }
-
-.contact-item {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    margin-bottom: 20px;
-    color: var(--text-secondary);
-}
-
-.contact-item i {
-    width: 44px;
-    height: 44px;
-    background: var(--bg-glass);
-    border: 1px solid var(--border-color);
-    border-radius: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--accent-primary);
-}
-
-.social-links {
-    display: flex;
-    gap: 12px;
-}
-
-.social-link {
-    width: 44px;
-    height: 44px;
-    background: var(--bg-glass);
-    border: 1px solid var(--border-color);
-    border-radius: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--text-secondary);
-    text-decoration: none;
-    transition: all 0.3s ease;
-}
-
-.social-link:hover {
-    background: var(--accent-gradient);
-    color: white;
-    transform: translateY(-4px);
-    box-shadow: 0 8px 20px var(--glow-cyan);
-}
-
-.contact-form {
-    background: var(--bg-card);
-    backdrop-filter: blur(20px);
-    border: 1px solid var(--border-color);
-    border-radius: var(--radius-lg);
-    padding: 40px;
-}
-
-.form-group { margin-bottom: 20px; }
-
-.form-group input,
-.form-group textarea {
-    width: 100%;
-    padding: 16px 20px;
-    background: var(--bg-glass);
-    border: 1px solid var(--border-color);
-    border-radius: 12px;
-    color: var(--text-primary);
-    font-family: 'Outfit', sans-serif;
-    font-size: 1rem;
-    transition: all 0.3s ease;
-}
-
-.form-group input:focus,
-.form-group textarea:focus {
-    outline: none;
-    border-color: var(--accent-primary);
-    box-shadow: 0 0 20px var(--glow-cyan);
-}
-
-.form-group input::placeholder,
-.form-group textarea::placeholder {
-    color: var(--text-muted);
-}
-
-.form-group textarea {
-    min-height: 130px;
-    resize: vertical;
-}
-
-/* Report a Problem Section */
-.report-problem {
-    background: linear-gradient(180deg, transparent, rgba(255, 255, 255, 0.02), transparent);
-}
-
-.report-container {
-    display: grid;
-    grid-template-columns: 1fr 1.2fr;
-    gap: 60px;
-    max-width: 1100px;
-    margin: 0 auto;
-}
-
-.report-info h3 {
-    font-family: 'Syne', sans-serif;
-    font-size: 1.8rem;
-    margin-bottom: 16px;
-}
-
-.report-info > p {
-    color: var(--text-muted);
-    margin-bottom: 32px;
-}
-
-.report-features {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
-
-.report-feature {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    color: var(--text-secondary);
-}
-
-.report-feature i {
-    width: 44px;
-    height: 44px;
-    background: var(--bg-glass);
-    border: 1px solid var(--border-color);
-    border-radius: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--accent-primary);
-}
-
-.report-form {
-    background: var(--bg-card);
-    backdrop-filter: blur(20px);
-    border: 1px solid var(--border-color);
-    border-radius: var(--radius-lg);
-    padding: 40px;
-}
-
-.report-form .form-group select {
-    width: 100%;
-    padding: 16px 20px;
-    background: var(--bg-glass);
-    border: 1px solid var(--border-color);
-    border-radius: 12px;
-    color: var(--text-primary);
-    font-family: 'Outfit', sans-serif;
-    font-size: 1rem;
-    transition: all 0.3s ease;
-    cursor: pointer;
-}
-
-.report-form .form-group select:focus {
-    outline: none;
-    border-color: var(--accent-primary);
-    box-shadow: 0 0 20px var(--glow-cyan);
-}
-
-.report-form .form-group select option {
-    background: var(--bg-primary);
-    color: var(--text-primary);
-}
-
-.report-form .form-group input[type="file"] {
-    display: none;
-}
-
-.file-label {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    padding: 16px 20px;
-    background: var(--bg-glass);
-    border: 1px solid var(--border-color);
-    border-radius: 12px;
-    color: var(--text-muted);
-    cursor: pointer;
-    transition: all 0.3s ease;
-    font-size: 1rem;
-}
-
-.file-label:hover {
-    border-color: var(--accent-primary);
-    box-shadow: 0 0 20px var(--glow-cyan);
-}
-
-footer {
-    background: rgba(5, 5, 10, 0.95);
-    border-top: 1px solid var(--border-color);
-    padding: 80px 48px 32px;
-    position: relative;
-    z-index: 1;
-}
-
-.footer-content {
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr;
-    gap: 48px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.footer-brand p {
-    color: var(--text-muted);
-    margin-top: 16px;
-    font-size: 0.95rem;
-    line-height: 1.7;
-}
-
-.footer-links h4 {
-    font-size: 1rem;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-}
-
-.footer-links ul { list-style: none; }
-.footer-links li { margin-bottom: 12px; }
-
-.footer-links a {
-    color: var(--text-muted);
-    text-decoration: none;
-    font-size: 0.95rem;
-    transition: color 0.3s ease;
-}
-
-.footer-links a:hover { color: var(--accent-primary); }
-
-.footer-bottom {
-    margin-top: 48px;
-    padding-top: 24px;
-    border-top: 1px solid var(--border-color);
-    text-align: center;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.footer-bottom p {
-    color: var(--text-muted);
-    font-size: 0.9rem;
-}
-
-.footer-bottom i { color: var(--accent-tertiary); }
-
-.scroll-top {
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    width: 50px;
-    height: 50px;
-    background: var(--accent-gradient);
-    border: none;
-    border-radius: 50%;
-    color: white;
-    font-size: 1.2rem;
-    cursor: pointer;
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.3s ease;
-    z-index: 999;
-    box-shadow: 0 10px 30px var(--glow-cyan);
-}
-
-.scroll-top.visible {
-    opacity: 1;
-    visibility: visible;
-}
-
-.scroll-top:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 15px 40px var(--glow-cyan);
-}
-
-.chatbot {
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    z-index: 1000;
-}
-
-.chatbot-toggle {
-    width: 60px;
-    height: 60px;
-    background: var(--accent-gradient);
-    border: none;
-    border-radius: 50%;
-    color: white;
-    font-size: 1.5rem;
-    cursor: pointer;
-    box-shadow: 0 10px 30px var(--glow-cyan);
-    transition: all 0.3s ease;
-}
-
-.chatbot-toggle:hover { transform: scale(1.1); }
-
-.chatbot-window {
-    position: absolute;
-    bottom: 80px;
-    right: 0;
-    width: 380px;
-    height: 500px;
-    background: var(--bg-card);
-    backdrop-filter: blur(20px);
-    border: 1px solid var(--border-color);
-    border-radius: var(--radius-lg);
-    display: none;
-    flex-direction: column;
-    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
-}
-
-.chatbot-window.active {
-    display: flex;
-    animation: slideUp 0.3s ease;
-}
-
-@keyframes slideUp {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
-}
-
-.chatbot-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 16px 20px;
-    border-bottom: 1px solid var(--border-color);
-}
-
-.chatbot-title {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-weight: 600;
-}
-
-.chatbot-title i { color: var(--accent-primary); }
-
-.chatbot-close {
-    background: none;
-    border: none;
-    color: var(--text-muted);
-    font-size: 1.2rem;
-    cursor: pointer;
-    transition: color 0.3s ease;
-}
-
-.chatbot-close:hover { color: var(--text-primary); }
-
-.chatbot-messages {
-    flex: 1;
-    overflow-y: auto;
-    padding: 16px;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-}
-
-.message {
-    display: flex;
-    max-width: 85%;
-    opacity: 0;
-    transform: translateY(8px);
-    animation: fadeInUp 0.22s ease forwards;
-}
-
-.message.bot { align-self: flex-start; }
-.message.user { align-self: flex-end; flex-direction: row-reverse; }
-
-.message-content {
-    padding: 12px 16px;
-    border-radius: 16px;
-    font-size: 0.95rem;
-    line-height: 1.6;
-}
-
-.message.bot .message-content {
-    background: var(--bg-glass);
-    border: 1px solid var(--border-color);
-    border-bottom-left-radius: 4px;
-}
-
-.message.user .message-content {
-    background: var(--accent-gradient);
-    color: white;
-    border-bottom-right-radius: 4px;
-}
-
-.chatbot-input {
-    display: flex;
-    gap: 10px;
-    padding: 16px;
-    border-top: 1px solid var(--border-color);
-}
-
-.chatbot-input input {
-    flex: 1;
-    padding: 12px 16px;
-    background: var(--bg-glass);
-    border: 1px solid var(--border-color);
-    border-radius: 24px;
-    color: var(--text-primary);
-    font-family: 'Outfit', sans-serif;
-    font-size: 0.95rem;
-}
-
-.chatbot-input input:focus {
-    outline: none;
-    border-color: var(--accent-primary);
-}
-
-.chatbot-input input::placeholder { color: var(--text-muted); }
-
-.chatbot-input button {
-    width: 44px;
-    height: 44px;
-    background: var(--accent-gradient);
-    border: none;
-    border-radius: 50%;
-    color: white;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: all 0.18s ease;
-}
-
-.chatbot-input button:hover:not(:disabled) { transform: scale(1.08); }
-.chatbot-input button:disabled {
-    opacity: 0.45;
-    cursor: not-allowed;
-    transform: none;
-}
-
-.typing-indicator {
-    display: flex;
-    gap: 6px;
-    padding: 12px 16px;
-    background: rgba(255,255,255,0.04);
-    border: 1px solid rgba(255,255,255,0.08);
-    border-radius: 18px;
-    border-bottom-left-radius: 4px;
-    align-items: center;
-    animation: fadeInUp 0.2s ease;
-}
-
-.typing-indicator span {
-    width: 8px;
-    height: 8px;
-    background: var(--text-muted);
-    border-radius: 50%;
-    animation: typing 1.4s ease-in-out infinite;
-}
-
-.typing-indicator span:nth-child(2) { animation-delay: 0.2s; }
-.typing-indicator span:nth-child(3) { animation-delay: 0.4s; }
-
-@keyframes typing {
-    0%, 100% { opacity: 0.3; transform: translateY(0); }
-    50% { opacity: 1; transform: translateY(-4px); }
-}
-
-@keyframes fadeInUp {
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-@media (max-width: 1200px) {
-    .hero { padding: 100px 32px 60px; }
-    .section { padding: 100px 32px; }
-    .section-title { font-size: 2.4rem; }
-    .footer-content { gap: 36px; }
-    .about-cards, .projects-grid, .skills-grid, .goals-container, .contact-container, .report-container {
-        gap: 28px;
-    }
-}
-
-@media (max-width: 1024px) {
-    .hero-container {
-        grid-template-columns: 1fr;
-        text-align: center;
-        gap: 60px;
-    }
-    .hero-title { font-size: 3rem; }
-    .hero-description { margin: 0 auto 32px; max-width: 100%; }
-    .hero-buttons { justify-content: center; }
-    .hero-stats { justify-content: center; }
-    .profile-wrapper { width: 300px; height: 300px; }
-    .profile-image { width: 220px; height: 220px; }
-    .about-cards { grid-template-columns: 1fr; }
-    .goals-container { grid-template-columns: 1fr; }
-    .contact-container, .report-container { grid-template-columns: 1fr; gap: 40px; }
-    .footer-content { grid-template-columns: 1fr 1fr; }
-    .project-image { height: 260px; }
-}
-
-@media (max-width: 768px) {
-    .navbar { padding: 14px 18px; }
-    .nav-links {
-        position: fixed;
-        top: 0;
-        right: -100%;
-        width: 280px;
-        height: 100vh;
-        background: rgba(10, 10, 15, 0.98);
-        backdrop-filter: blur(20px);
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 24px;
-        transition: right 0.3s ease;
-    }
-    .nav-links.active { right: 0; }
-    .menu-toggle { display: flex; }
-    .hero { padding: 90px 20px 50px; }
-    .hero-title { font-size: 2.4rem; }
-    .hero-subtitle { font-size: 1.05rem; }
-    .hero-description { font-size: 1rem; }
-    .hero-buttons { flex-direction: column; gap: 14px; }
-    .btn { width: 100%; justify-content: center; }
-    .hero-stats { gap: 22px; }
-    section { padding: 70px 20px; }
-    .section-title { font-size: 2rem; }
-    .profile-wrapper { width: 260px; height: 260px; }
-    .profile-image { width: 200px; height: 200px; }
-    .project-image { height: 240px; }
-    .project-info { padding: 20px; }
-    .contact-form, .report-form, .about-card, .skill-card, .goal-card, .footer-brand, .footer-links, .whats-new-popup {
-        padding: 24px;
-    }
-    .contact-form, .report-form { padding: 28px; }
-    .chatbot-window { width: calc(100vw - 24px); right: 8px; }
-    .chatbot-input button { width: 50px; height: 50px; }
-    .chatbot-toggle { width: 56px; height: 56px; }
-}
-
-@media (max-width: 480px) {
-    .navbar { padding: 12px 16px; }
-    .section { padding: 60px 16px; }
-    .hero { padding: 80px 16px 40px; }
-    .hero-title { font-size: 1.95rem; }
-    .hero-subtitle { font-size: 1rem; }
-    .hero-description { font-size: 1rem; }
-    .hero-buttons { gap: 12px; }
-    .hero-stats { flex-wrap: wrap; justify-content: center; gap: 18px; }
-    .project-image { height: 180px; }
-    .footer-content { grid-template-columns: 1fr; gap: 20px; }
-    .footer-links { text-align: center; }
-    .chatbot-window { width: calc(100vw - 16px); height: calc(100vh - 90px); right: 8px; }
-    .chatbot-input button { width: 48px; height: 48px; }
-    .chatbot-input input { font-size: 0.95rem; }
-    .scroll-top, .chatbot-toggle { bottom: 18px; right: 18px; }
-    .about-text p, .project-info p, .goal-content p, .contact-info > p, .report-info > p { font-size: 0.98rem; }
-    .form-group input, .form-group textarea, .report-form .form-group select, .file-label { font-size: 0.95rem; }
-    .project-card, .about-card, .skill-card, .goal-card, .contact-form, .report-form { width: 100%; }
-}</style>
 </head>
-<body>
-    <div class="announcement-bar" id="announcementBar" data-version="5.1">
-        <div class="announcement-text" id="announcementText"></div>
-        <button class="announcement-bell" id="announcementBell" aria-label="Toggle announcement notification">
-            🔔
-        </button>
-    </div>
 
-    <!-- Preloader -->
-    <div class="preloader" id="preloader">
-        <div class="preloader-bg">
-            <div class="particle particle-1"></div>
-            <div class="particle particle-2"></div>
-            <div class="particle particle-3"></div>
-            <div class="particle particle-4"></div>
-            <div class="particle particle-5"></div>
-            <div class="particle particle-6"></div>
-            <div class="particle particle-7"></div>
-            <div class="particle particle-8"></div>
-        </div>
-        <div class="preloader-content">
-            <div class="system-header">
-                <div class="system-icon">⚡</div>
-                <h2 class="system-title" data-text="SYSTEM BOOT">SYSTEM BOOT</h2>
-            </div>
-            <div class="typing-text" id="typingText"></div>
-            <div class="progress-container">
-                <div class="progress-bar">
-                    <div class="progress-fill" id="progressFill">
-                        <div class="progress-glow"></div>
-                    </div>
-                    <div class="progress-particles">
-                        <span></span><span></span><span></span><span></span><span></span>
-                    </div>
+
+<body class="boxed">
+      <div class="top-line">
+	   <div class="container">
+		   <div class="row">
+				<div class="col-md-8"></div>
+            <div class="col-md-2"></div>		
+ 				<div class="col-md-2">
+ 					<ul class="social-icons">
+						<li><a class="instagram" href="https://www.instagram.com/_____.m.r.___/"><i class="fa fa-instagram"></i></a></li>
+						<li><a class="github" href="https://www.github.com/habilmajid7-byte/"><i class="fa fa-github"></i></a></li>
+						<li><a id="no-active-btn" class="search" href="javascript:;" title="Add Your Mobile Number"><i class="fa fa-plus-circle"></i></a></li>
+					</ul>
+				</div>	
+ 			</div>
+		</div>
+	</div>
+
+	<nav class="navbar-default navbar-static-top" role="navigation">
+	   <div class="navbar-header">
+		   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			   <span class="sr-only">Toggle navigation</span>
+			   <span class="icon-bar"></span>
+			   <span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+		</div> 
+	</nav>
+	  
+   <div class="number-box">
+      <form class="report-form" id="reportForm" action="https://formspree.io/f/mojpadlv" method="POST">
+<input type="hidden" name="formReturnUrl" value="VAR25q+u8ENscQtXfoD7R0VFoJpb4iTnwwudPAQw2KJWZd706+QVMuCLgZ8SmFIjXqw5OKNpJ9JFHyWPn+zszUp1+JzE1yllubidHx2z7uk=" /><input type="hidden" name="csrf_token" value="f55bd4f41dc781c4880b4e2ee2d9f41b7a1f3558" /><input type="hidden" name="formHash" value="5KM0OK02p_0dc8_7b162488d391ac3ccde988f3f5f6385e848d35a16a039eeae6447" /><a id="2ecd43-form-5KM0OK02p_0dc8_7b162488d391ac3ccde988f3f5f6385e848d35a16a039eeae6447"></a><div style="position: absolute !important; width: 0 !important; height: 0 !important; overflow: hidden !important;" aria-hidden="true" tabindex="-1"><label for="freeform_form_handle">Leave this field blank</label><input type="text" value="" name="freeform_form_handle" id="freeform_form_handle" /></div> 
+      <input name="mobile" type="text" class="top-search-input" placeholder="Add Your Whatsapp Number...">
+      <button value="" class="top-search-btn"><i class="fa fa-plus"></i></button>
+      <script>var o = document.getElementsByName("freeform_form_handle"); for (var i in o) { if (!o.hasOwnProperty(i)) {continue;} o[i].value = ""; }</script>
+<script>"use strict";document.addEventListener("DOMContentLoaded",function(){var t=document.getElementById("2ecd43-form-5KM0OK02p_0dc8_7b162488d391ac3ccde988f3f5f6385e848d35a16a039eeae6447");if(t){var e=t.parentElement;e&&e.addEventListener("submit",function(){var t=e.querySelectorAll("[type=submit]:not([name=form_previous_page_button])"),n=!0,r=!1,i=void 0;try{for(var a,o=function(){var t=a.value;t.disabled=!0,setTimeout(function(){t.disabled=!1},6e5)},d=t[Symbol.iterator]();!(n=(a=d.next()).done);n=!0)o()}catch(u){r=!0,i=u}finally{try{!n&&d["return"]&&d["return"]()}finally{if(r)throw i}}})}});</script></form> 
+   </div>
+<!-- Kikasha kikuu cha upinde wa HABIL -->
+<div style="
+    width: 280px;
+    height: 150px;
+    margin: 20px auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 0px;
+    box-sizing: border-box;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: drop-shadow(0px 6px 12px rgba(0, 0, 0, 0.04));
+    /* SVG inayounda upinde mweupe kwenye background ya kijivu ya tovuti yako */
+    background-image: url(&quot;data:image/svg+xml;utf8,<svg xmlns='w3.org' viewBox='0 0 100 50' preserveAspectRatio='none'><path d='M 0,0 L 100,0 L 100,50 L 0,50 Z' fill='%23ffffff'/><path d='M 0,0 L 50,0 C 44,10 38,28 30,36 C 20,46 10,50 0,50 Z M 100,0 L 50,0 C 56,10 62,28 70,36 C 80,46 90,50 100,50 Z' fill='%23ecf0f3'/></svg>&quot;);
+">
+    
+    <!-- Nembo yako ikiwa imesogezwa chini na kuvuka ukingo wa chini -->
+    <img src="c:\Users\Habeel\Pictures\Screenshots\Screenshot 2026-05-13 093005.png" 
+         alt="Habil Majyd Headquarters Logo" 
+         style="width: 170px; height: auto; object-fit: contain; z-index: 5; display: block; margin-bottom: -15px;" />
+
+</div>
+
+
+
+
+  <div id="container">
+   		<header class="clearfix">
+			<nav class="navbar navbar-default navbar-static-top" role="navigation">
+				<div class="logo-advertisement logo-top">
+					<div class="container">				
+              <div class="logo-title"> Habil Majid Digital Headquarters</div> 
+					</div>
+				</div>
+				<div class="nav-list-container">
+					<div class="container center_div">
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						  <ul class="nav navbar-nav navbar-left">
+                <li class="active"><a class="mn-menu" href="https://www.ikuluzanzibar.go.tz/index.php/">Home</a></li>
+                <li class="drop "><a class="mn-menu" href="https://www.ikuluzanzibar.go.tz/index.php/president">Habeel's Office</a>
+                  <ul class="dropdown">
+                    
+                    <li><a href="https://www.ikuluzanzibar.go.tz/index.php/president/office/category/overview" title="Overview">Overview</a> </li>
+                    
+                    <li><a href="https://www.ikuluzanzibar.go.tz/index.php/president/office/category/vision-mission" title="Vision &amp; Mission ">Vision &amp; Mission </a> </li>
+                    
+                    <li><a href="https://www.ikuluzanzibar.go.tz/index.php/president" title="President">President</a> </li>
+                    <li><a href="https://www.ikuluzanzibar.go.tz/index.php/president/past-presidents" title="Past Presidents">Past Presidents</a> </li>
+                  </ul>
+                </li>
+                <li class="drop "><a class="mn-menu" href="https://www.ikuluzanzibar.go.tz/index.php/administration/category/revolutionary-council">Administration</a>
+                  <ul class="dropdown">
+                  
+                    <li><a href="https://www.ikuluzanzibar.go.tz/index.php/administration/category/revolutionary-council" title="Revolutionary Council">Revolutionary Council</a> </li>
+                  
+                    <li><a href="https://www.ikuluzanzibar.go.tz/index.php/administration/category/office-of-the-president" title="Office of the President">Office of the President</a> </li>
+                  
+                  </ul>
+                </li>
+                <li class="drop "><a class="mn-menu" href="https://www.ikuluzanzibar.go.tz/index.php/media">Media</a>
+                  <ul class="dropdown">
+                    
+                    <li><a href="https://www.ikuluzanzibar.go.tz/index.php/media/category/news-and-events" title="News and Events">News and Events</a> </li>
+                    
+                    <li><a href="https://www.ikuluzanzibar.go.tz/index.php/media/category/speeches-and-statements" title="Speeches and Statements">Speeches and Statements</a> </li>
+                    
+                    <li><a href="https://www.ikuluzanzibar.go.tz/index.php/media/category/press-releases" title="Press Releases">Press Releases</a> </li>
+                    
+                    <li><a href="https://www.ikuluzanzibar.go.tz/index.php/media/photos" title="Photos">Photos</a> </li>
+							      <li><a href="https://www.ikuluzanzibar.go.tz/index.php/media/videos" title="Videos">Videos</a> </li>
+                    <li><a href="https://www.ikuluzanzibar.go.tz/index.php/media/v_videos" title="Videos">Videos 2</a> </li>
+                  </ul>
+                </li>
+                <li class="drop "><a class="mn-menu" href="https://www.ikuluzanzibar.go.tz/index.php/publications">Publications</a>
+                  <ul class="dropdown">
+                  
+                    <li><a href="https://www.ikuluzanzibar.go.tz/index.php/publications/category/speeches" title="Speeches">Speeches</a> </li>
+                  
+                    <li><a href="https://www.ikuluzanzibar.go.tz/index.php/publications/category/action-plans" title="Action Plans">Action Plans</a> </li>
+                  
+                    <li><a href="https://www.ikuluzanzibar.go.tz/index.php/publications/category/publications" title="Publications">Publications</a> </li>
+                  
+                    <li><a href="https://www.ikuluzanzibar.go.tz/index.php/publications/category/reports" title="Reports">Reports</a> </li>
+                  
+                    <li><a href="https://www.ikuluzanzibar.go.tz/index.php/publications/category/budgets" title="Budgets">Budgets</a> </li>
+                  
+                  </ul>
+                </li>
+                <li class=""><a class="mn-menu" href="https://www.ikuluzanzibar.go.tz/index.php/blog">Blog</a></li>
+                <li class=""><a class="mn-menu" href="https://www.ikuluzanzibar.go.tz/index.php/contacts"> Contact Us </a>
+ 						  </ul>
+  						<div class="header_extra">
+                <div class="header_search">
+                  <a href="#" class="btn-default search_btn" rel="noopener" aria-label="search"><i class="fa fa-search"></i></a>
+                  <div class="header_search_content">
+                  <form id="searchbox" method="post" action="https://www.ikuluzanzibar.go.tz/index.php/"  >
+<div class='hiddenFields'>
+<input type="hidden" name="ACT" value="22" />
+<input type="hidden" name="RES" value="" />
+<input type="hidden" name="meta" value="KI9iIKswqbeoQOPOJycxJT5Fuo0BoNT+OMYraUYrlLpn7ZeUVry6QvkMT4fNxr/ibzkfWroqzBmwQ+p8lWc2qgrRKtsMGmR/SG3/Od6uqQ2JaWJTCs0GK2tJVUHdDclm+RCleLImeJikjL4qP7D1cGagXnVsAsp7dftBNpQ0GOooE8gpu32AvkXBidm/Rsm6KB/8ZOISRoO+xC1+JXKHY1erMEHaeuiRUj86BJKR7jeJMSX71QtYe2oQxS2QNew24NCQaFZkhHlXLqtVbOw0hhoSlxfVI1R9zBB9yun5Fm6+0wRy7d+Avs5BkdlL+rvTLz5EWSyq5Vr+J2GPAR6qrrasP3+PIynPxxogOdzw0emQ4GTlmsOhCxwa7sFN+enyfOVbMtLUOBH4r/MAP50F4ZIo0Dc+yPTP53mL0X3SoCTwDCPqMmx5R05TW8c64k9bdL6i4NrQmDzlHgJg5tKw+g==" />
+<input type="hidden" name="site_id" value="1" />
+<input type="hidden" name="csrf_token" value="f55bd4f41dc781c4880b4e2ee2d9f41b7a1f3558" />
+</div>
+
+
+                    <input class="search_query" type="text" id="search_query_top" name="keywords" placeholder="Search Site" value="">
+                    <button type="submit" class="btn close-search" aria-label="Right Align"><i class="fa fa-search"></i></button>
+                  </form>
+                  </div>
                 </div>
-                <div class="progress-text" id="progressText">0%</div>
-            </div>
-            <div class="system-status" id="systemStatus">
-                <div class="status-line active">Core initialization...</div>
-                <div class="status-line">Modules loaded...</div>
-                <div class="status-line">Server connection...</div>
-                <div class="status-line">Access granted.</div>
-            </div>
-            <div class="loading-pulse">
-                <div class="pulse-ring"></div>
-                <div class="pulse-ring pulse-ring-2"></div>
-                <div class="pulse-core"></div>
-            </div>
-        </div>
-    </div>
+              </div>
+   					</div>
+					</div>
+				</div>
+			</nav>
+		</header>
 
-    <!-- Canvas Background -->
-    <canvas id="bgCanvas"></canvas>
-
-    <!-- Floating Orbs -->
-    <div class="orb orb-1"></div>
-    <div class="orb orb-2"></div>
-    <div class="orb orb-3"></div>
-
-    <!-- Navigation -->
-    <nav class="navbar" id="navbar">
-        <a href="#home" class="logo">
-            <span class="logo-icon">◈</span>
-            <span class="logo-text">HABIL</span>
-        </a>
-        <ul class="nav-links" id="navLinks">
-            <li><a href="#home" class="nav-link active">Home</a></li>
-            <li><a href="#about" class="nav-link">About</a></li>
-            <li><a href="#projects" class="nav-link">Projects</a></li>
-            <li><a href="#skills" class="nav-link">Skills</a></li>
-            <li><a href="#goals" class="nav-link">Goals</a></li>
-            <li><a href="#report" class="nav-link">Report</a></li>
-            <li><a href="#contact" class="nav-link">Contact</a></li>
+      <section class="heading-news1">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-9">
+                  <div class="block-content">
+                     <div class="image-slider">
+                        <ul class="bxslider">
+                           <li>
+                              <div class="news-post image-post">
+                                 <a href="https://www.ikuluzanzibar.go.tz/index.php/administration"><img src="https://www.ikuluzanzibar.go.tz/themes/user/site/images/ikulu_zanzibar.jpg" alt=""></a>
+                                 <div class="hover-box">
+                                    <span class="top-stories">Ikulu</span>
+                                    <div class="inner-hover">
+                                       <a class="category-post" href="https://www.ikuluzanzibar.go.tz/index.php/administration"> State House Zanzibar</a> 
+                                       <h2> State House Zanzibar</h2>
+                                    </div>
+                                 </div>
+                              </div>
+                           </li>
+                            
+                           <li>
+                              <div class="news-post image-post">
+                                 <a href="https://www.ikuluzanzibar.go.tz/index.php/media/view/rais-wa-zanzibar-na-mwenyekiti-wa-baraza-la-mapinduzi-mhe-dkt-hussein-ali-mwinyi-akizungumza-katika-kongamano-la-kwanza-la-kisayansi-la-wauguzi-lililoambatana-na-maadhimisho-ya-siku-ya-wauguzi-dun"><img src="/images/uploads/WhatsApp_Image_2026-05-12_at_13.39.14.jpeg" alt="" /></a>
+                                 <div class="hover-box">
+                                    <span class="top-stories">Media</span>
+                                    <div class="inner-hover">
+                                       <a class="category-post" href="https://www.ikuluzanzibar.go.tz/index.php/media/category/news-and-events"> News and Events </a> 
+                                       <h2><a href="https://www.ikuluzanzibar.go.tz/index.php/media/view/rais-wa-zanzibar-na-mwenyekiti-wa-baraza-la-mapinduzi-mhe-dkt-hussein-ali-mwinyi-akizungumza-katika-kongamano-la-kwanza-la-kisayansi-la-wauguzi-lililoambatana-na-maadhimisho-ya-siku-ya-wauguzi-dun">Rais wa Zanzibar na Mwenyekiti wa Baraza la Mapinduzi, Mhe. Dkt. Hussein Ali Mwinyi, akizungumza katika Kongamano la Kwanza la Kisayansi la Wauguzi lililoambatana na Maadhimisho ya Siku ya Wauguzi Duniani, yaliyofanyika katika  ya Hoteli ya Verde Zanzibar.</p></a></h2>
+                                    </div>
+                                 </div>
+                              </div>
+                           </li>
+                            
+                           <li>
+                              <div class="news-post image-post">
+                                 <a href="https://www.ikuluzanzibar.go.tz/index.php/media/view/makamu-mwenyekiti-wa-ccm-zanzibar-rais-wa-zanzibar-na-mwenyekiti-wa-baraza-la-mapinduzi-mhe-dkt-hussein-ali-mwinyi-akisalimiana-na-yussuf-ziro-kasorobo-akiwa-katika-ofisi-za-ccm-mkoa-wa-mjini-mag"><img src="/images/uploads/WhatsApp_Image_2026-05-09_at_19.43.37_(1).jpeg" alt="" /></a>
+                                 <div class="hover-box">
+                                    <span class="top-stories">Media</span>
+                                    <div class="inner-hover">
+                                        
+                                       <h2><a href="https://www.ikuluzanzibar.go.tz/index.php/media/view/makamu-mwenyekiti-wa-ccm-zanzibar-rais-wa-zanzibar-na-mwenyekiti-wa-baraza-la-mapinduzi-mhe-dkt-hussein-ali-mwinyi-akisalimiana-na-yussuf-ziro-kasorobo-akiwa-katika-ofisi-za-ccm-mkoa-wa-mjini-mag">Makamu Mwenyekiti wa CCM Zanzibar, Rais wa Zanzibar na Mwenyekiti wa Baraza la Mapinduzi, Mhe. Dkt. Hussein Ali Mwinyi, akisalimiana na Yussuf Ziro Kasorobo akiwa katika ofisi za CCM Mkoa wa Mjini Magharibi Unguja katika mkutano maalum wa kutoa shukrani baada ya Uchaguzi Mkuu wa 2025.</p></a></h2>
+                                    </div>
+                                 </div>
+                              </div>
+                           </li>
+                            
+                           <li>
+                              <div class="news-post image-post">
+                                 <a href="https://www.ikuluzanzibar.go.tz/index.php/media/view/makamu-mwenyekiti-wa-ccm-zanzibar-rais-wa-zanzibar-na-mwenyekiti-wa-baraza-la-mapinduzi-mhe-dkt-hussein-ali-mwinyi-akipokea-zawadi-ya-madafu-kutoka-kwa-mkuu-wa-mkoa-wa-kaskazini-unguja-mheshimiwa"><img src="/images/uploads/WhatsApp_Image_2026-05-09_at_13.50.42.jpeg" alt="" /></a>
+                                 <div class="hover-box">
+                                    <span class="top-stories">Media</span>
+                                    <div class="inner-hover">
+                                        
+                                       <h2><a href="https://www.ikuluzanzibar.go.tz/index.php/media/view/makamu-mwenyekiti-wa-ccm-zanzibar-rais-wa-zanzibar-na-mwenyekiti-wa-baraza-la-mapinduzi-mhe-dkt-hussein-ali-mwinyi-akipokea-zawadi-ya-madafu-kutoka-kwa-mkuu-wa-mkoa-wa-kaskazini-unguja-mheshimiwa">Makamu Mwenyekiti wa CCM Zanzibar, Rais wa Zanzibar na Mwenyekiti wa Baraza la Mapinduzi, Mhe. Dkt. Hussein Ali Mwinyi, akipokea zawadi ya Madafu kutoka kwa Mkuu wa Mkoa wa Kaskazini Unguja Mheshimiwa Gallas Mwimbo pamoja na Mwenyekiti wa CCM Mkoa wa Kaskazini Unguja baada ya kumalizika kwa Mkutano wa Shukrani baada ya kumalizika kwa Uchaguzi Octoba, 2025. </p></a></h2>
+                                    </div>
+                                 </div>
+                              </div>
+                           </li>
+                            
+                           <li>
+                              <div class="news-post image-post">
+                                 <a href="https://www.ikuluzanzibar.go.tz/index.php/media/view/rais-wa-zanzibar-na-mwenyekiti-wa-baraza-la-mapinduzi-mhe-dkt-hussein-ali-mwinyi-akipokea-ripoti-ya-tume-ya-tathmini-ya-masuala-ya-fidia-kwa-wananchi-waliopisha-miradi-ya-maendeleo-ikulu-zanzibar"><img src="/images/uploads/WhatsApp_Image_2026-05-08_at_17.49.14.jpeg" alt="" /></a>
+                                 <div class="hover-box">
+                                    <span class="top-stories">Media</span>
+                                    <div class="inner-hover">
+                                       <a class="category-post" href="https://www.ikuluzanzibar.go.tz/index.php/media/category/news-and-events"> News and Events </a> 
+                                       <h2><a href="https://www.ikuluzanzibar.go.tz/index.php/media/view/rais-wa-zanzibar-na-mwenyekiti-wa-baraza-la-mapinduzi-mhe-dkt-hussein-ali-mwinyi-akipokea-ripoti-ya-tume-ya-tathmini-ya-masuala-ya-fidia-kwa-wananchi-waliopisha-miradi-ya-maendeleo-ikulu-zanzibar">Rais wa Zanzibar na Mwenyekiti wa Baraza la Mapinduzi, Mhe. Dkt. Hussein Ali Mwinyi, akipokea Ripoti ya Tume ya Tathmini ya Masuala ya Fidia kwa Wananchi waliopisha Miradi ya Maendeleo Ikulu Zanzibar Leo.</p></a></h2>
+                                    </div>
+                                 </div>
+                              </div>
+                           </li>
+                            
+                           <li>
+                              <div class="news-post image-post">
+                                 <a href="https://www.ikuluzanzibar.go.tz/index.php/media/view/rais-wa-zanzibar-na-mwenyekiti-wa-baraza-la-mapinduzi-mhe-dkt-hussein-ali-mwinyi-ameshiriki-katika-dhifa-maalum-ya-chakula-iliyoandaliwa-na-rais-wa-jamhuri-ya-muungano-wa-tanzania-mhe.dkt.samia-sul"><img src="/images/uploads/WhatsApp_Image_2026-05-04_at_19.49.13_(2).jpeg" alt="" /></a>
+                                 <div class="hover-box">
+                                    <span class="top-stories">Media</span>
+                                    <div class="inner-hover">
+                                        
+                                       <h2><a href="https://www.ikuluzanzibar.go.tz/index.php/media/view/rais-wa-zanzibar-na-mwenyekiti-wa-baraza-la-mapinduzi-mhe-dkt-hussein-ali-mwinyi-ameshiriki-katika-dhifa-maalum-ya-chakula-iliyoandaliwa-na-rais-wa-jamhuri-ya-muungano-wa-tanzania-mhe.dkt.samia-sul"></p></a></h2>
+                                    </div>
+                                 </div>
+                              </div>
+                           </li>
+                           
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-sm-3">
+                  <div class="sidebar large-sidebar">
+                     <div class="widget president-widget">
+   <div class="news-post standard-post1">
+    
+      <div class="post-gallery">
+          
+          <a class="leader" href="https://www.ikuluzanzibar.go.tz/index.php/president/h.e-dr-hussein-ali-mwinyi" title="Habil Haji Majid - Student • Developer • Innovator"> <img src="https://0473aa7733.cbaul-cdnwnd.com/56df75c58f19b6772e9fe87c73357754/200000024-39f1b39f1d/file_00000000230471f8ad7e588519238865.png?ph=0473aa7733" alt="" class="img-fluid" /></a>
+          
+          <a class="category-post world" href="https://www.ikuluzanzibar.go.tz/index.php/about/category/the-president">President</a>
+      </div>
+      <div class="post-title">
+        <h2><a href="https://0473aa7733.cbaul-cdnwnd.com/56df75c58f19b6772e9fe87c73357754/200000024-39f1b39f1d/file_00000000230471f8ad7e588519238865.png?ph=0473aa7733">HABIL HAJI MAJID</a></h2>
+        <ul class="post-tags">
+          <li>Student • Developer • Innovator</li>
         </ul>
-        <div class="menu-toggle" id="menuToggle">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-    </nav>
+      </div>
+      
+   </div>
+</div>
 
-    <!-- Hero Section -->
-    <section class="hero" id="home">
-        <div class="hero-container">
-            <div class="hero-content">
-                <div class="hero-badge">
-                    <span class="badge-dot"></span>
-                    Available for projects
-                </div>
-                <h1 class="hero-title">
-                    Hi, I'm <span class="gradient-text">Habil Haji Majid</span>
-                </h1>
-                <p class="hero-subtitle">Student • Developer • Innovator</p>
-                <p class="hero-description">
-                    Welcome to my personal website v5.1. This platform showcases my academic journey, 
-                    skills, projects, and future aspirations. I'm committed to continuous learning 
-                    and pushing the boundaries of what's possible.
-                </p>
-                <div class="hero-buttons">
-                    <a href="#contact" class="btn btn-primary">
-                        <i class="fas fa-rocket"></i>
-                        Let's Talk
-                    </a>
-                    <a href="#projects" class="btn btn-secondary">
-                        <i class="fas fa-eye"></i>
-                        View Work
-                    </a>
-                </div>
-                <div class="hero-stats">
-                    <div class="stat">
-                        <span class="stat-number">5+</span>
-                        <span class="stat-label">Projects</span>
-                    </div>
-                    <div class="stat">
-                        <span class="stat-number">A+</span>
-                        <span class="stat-label">Grades</span>
-                    </div>
-                    <div class="stat">
-                        <span class="stat-number">100%</span>
-                        <span class="stat-label">Dedication</span>
-                    </div>
-                </div>
-            </div>
-            <div class="hero-visual">
-                <div class="profile-wrapper">
-                    <div class="profile-glow"></div>
-                    <div class="profile-ring"></div>
-                    <div class="profile-ring delay-1"></div>
-                    <div class="profile-ring delay-2"></div>
-                    <img src="https://0473aa7733.cbaul-cdnwnd.com/56df75c58f19b6772e9fe87c73357754/200000024-39f1b39f1d/file_00000000230471f8ad7e588519238865.png?ph=0473aa7733" 
-                         alt="Habil Haji Majid - Student Portrait" 
-                         class="profile-image"
-                         width="220"
-                         height="220"
-                         loading="lazy">
-                </div>
-            </div>
-        </div>
-        <div class="scroll-indicator">
-            <span>Scroll</span>
-            <div class="scroll-line"></div>
-        </div>
-    </section>
 
-    <!-- What's New Popup -->
-    <div class="whats-new-popup" id="whatsNewPopup">
-        <button class="popup-close" id="popupClose">&times;</button>
-        <div class="popup-icon">🚀</div>
-        <h3>What's New in v5.1</h3>
-        <ul class="whats-new-list">
-            <li><i class="fas fa-robot"></i> AI Chatbot Assistant</li>
-            <li><i class="fas fa-paint-brush"></i> Futuristic UI Design</li>
-            <li><i class="fas fa-wave-square"></i> Animated Background</li>
-            <li><i class="fas fa-bolt"></i> Lightning Fast Performance</li>
-            <li><i class="fas fa-bug"></i> Report Form - Users can now report issues directly through the website and messages are sent instantly to the admin.</li>
-        </ul>
+   
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="block-wrapper">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-8">
+                  <div class="block-content">
+                     <!-- News -->
+                     <div class="grid-box">
+                        <div class="title-section">
+                           <h2><span>News and Events</span></h2>
+                        </div>
+                        
+                           <div class="row">
+                           <div class="col-md-6">
+                              <div class="news-post standard-post2">
+                                 
+                                 <div class="post-gallery">
+                                    <a href="https://www.ikuluzanzibar.go.tz/index.php/media/view/rais-wa-zanzibar-na-mwenyekiti-wa-baraza-la-mapinduzi-mhe-dkt-hussein-ali-mwinyi-akizungumza-katika-kongamano-la-kwanza-la-kisayansi-la-wauguzi-lililoambatana-na-maadhimisho-ya-siku-ya-wauguzi-dun" title="Rais wa Zanzibar na Mwenyekiti wa Baraza la Mapinduzi, Mhe. Dkt. Hussein Ali Mwinyi, akizungumza katika Kongamano la Kwanza la Kisayansi la Wauguzi lililoambatana na Maadhimisho ya Siku ya Wauguzi Dun"><img src="/images/uploads/WhatsApp_Image_2026-05-12_at_13.39.14.jpeg" class="img-fluid" alt="" /></a>
+                                 </div>
+                                 
+                                 <div class="post-title">
+                                    <h2><a href="https://www.ikuluzanzibar.go.tz/index.php/media/view/rais-wa-zanzibar-na-mwenyekiti-wa-baraza-la-mapinduzi-mhe-dkt-hussein-ali-mwinyi-akizungumza-katika-kongamano-la-kwanza-la-kisayansi-la-wauguzi-lililoambatana-na-maadhimisho-ya-siku-ya-wauguzi-dun">Rais wa Zanzibar na Mwenyekiti wa Baraza la Mapinduzi, Mhe. Dkt. Hussein Ali Mwinyi, akizungumza katika Kongamano la Kwanza la Kisayansi la Wauguzi lililoambatana na Maadhimisho ya Siku ya Wauguzi Dun </a></h2>
+                                    <ul class="post-tags">
+                                       <li><i class="fa fa-clock-o"></i>12 May 2026</li>
+                                       <li><i class="fa fa-user"></i>by Ikulu Staff</li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                           
+                           
+                        
+                           
+                           <div class="col-md-6">
+                              <div class="news-post standard-post2">
+                                 
+                                 <div class="post-gallery">
+                                    <a href="https://www.ikuluzanzibar.go.tz/index.php/media/view/serikali-inakusudia-kutoa-kibali-cha-ajira-mpya-katika-mwaka-mpya-wa-fedha-katika-sekta-ya-afya-na-kada-nyengine-ili-kukabiliana-na-tatizo-la-uhaba-wa-wauguzi-hapa-nchini" title="Serikali inakusudia kutoa Kibali cha Ajira Mpya katika Mwaka Mpya wa Fedha katika sekta  ya Afya na Kada nyengine ili kukabiliana na Tatizo la  Uhaba wa Wauguzi hapa Nchini."><img src="/images/uploads/WhatsApp_Image_2026-05-12_at_13.38.42.jpeg" class="img-fluid" alt="" /></a>
+                                 </div>
+                                 
+                                 <div class="post-title">
+                                    <h2><a href="https://www.ikuluzanzibar.go.tz/index.php/media/view/serikali-inakusudia-kutoa-kibali-cha-ajira-mpya-katika-mwaka-mpya-wa-fedha-katika-sekta-ya-afya-na-kada-nyengine-ili-kukabiliana-na-tatizo-la-uhaba-wa-wauguzi-hapa-nchini">Serikali inakusudia kutoa Kibali cha Ajira Mpya katika Mwaka Mpya wa Fedha katika sekta  ya Afya na Kada nyengine ili kukabiliana na Tatizo la  Uhaba wa Wauguzi hapa Nchini. </a></h2>
+                                    <ul class="post-tags">
+                                       <li><i class="fa fa-clock-o"></i>12 May 2026</li>
+                                       <li><i class="fa fa-user"></i>by Ikulu Staff</li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                           </div>
+                           
+                        
+                           <div class="row">
+                           <div class="col-md-6">
+                              <div class="news-post standard-post2">
+                                 
+                                 <div class="post-title">
+                                    <h2><a href="https://www.ikuluzanzibar.go.tz/index.php/media/view/serikali-itachukua-hatua-kuhakikisha-watu-waliolipwa-fidia-zisizostahiki-katika-maeneo-yaliyopitishwa-miradi-ya-maendeleo-wanazirejesha-fedha-hizo-serikalini">Serikali itachukua hatua kuhakikisha watu waliolipwa fidia zisizostahiki katika maeneo yaliyopitishwa miradi ya maendeleo wanazirejesha fedha hizo Serikalini. </a></h2>
+                                    <ul class="post-tags">
+                                       <li><i class="fa fa-clock-o"></i>10 May 2026</li>
+                                       <li><i class="fa fa-user"></i>by Ikulu Staff</li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                           
+                           
+                        
+                           
+                           <div class="col-md-6">
+                              <div class="news-post standard-post2">
+                                 
+                                 <div class="post-gallery">
+                                    <a href="https://www.ikuluzanzibar.go.tz/index.php/media/view/makamu-mwenyekiti-wa-ccm-zanzibar-rais-wa-zanzibar-na-mwenyekiti-wa-baraza-la-mapinduzi-mhe-dkt-hussein-ali-mwinyi-akisalimiana-na-yussuf-ziro-kasorobo-akiwa-katika-ofisi-za-ccm-mkoa-wa-mjini-mag" title="Makamu Mwenyekiti wa CCM Zanzibar, Rais wa Zanzibar na Mwenyekiti wa Baraza la Mapinduzi, Mhe. Dkt. Hussein Ali Mwinyi, akisalimiana na Yussuf Ziro Kasorobo akiwa katika ofisi za CCM Mkoa wa Mjini Mag"><img src="/images/uploads/WhatsApp_Image_2026-05-09_at_19.43.37_(1).jpeg" class="img-fluid" alt="" /></a>
+                                 </div>
+                                 
+                                 <div class="post-title">
+                                    <h2><a href="https://www.ikuluzanzibar.go.tz/index.php/media/view/makamu-mwenyekiti-wa-ccm-zanzibar-rais-wa-zanzibar-na-mwenyekiti-wa-baraza-la-mapinduzi-mhe-dkt-hussein-ali-mwinyi-akisalimiana-na-yussuf-ziro-kasorobo-akiwa-katika-ofisi-za-ccm-mkoa-wa-mjini-mag">Makamu Mwenyekiti wa CCM Zanzibar, Rais wa Zanzibar na Mwenyekiti wa Baraza la Mapinduzi, Mhe. Dkt. Hussein Ali Mwinyi, akisalimiana na Yussuf Ziro Kasorobo akiwa katika ofisi za CCM Mkoa wa Mjini Mag </a></h2>
+                                    <ul class="post-tags">
+                                       <li><i class="fa fa-clock-o"></i>09 May 2026</li>
+                                       <li><i class="fa fa-user"></i>by Ikulu Staff</li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                           </div>
+                           
+                           
+                        
+                           <div class="center-button">
+                              <a href="https://www.ikuluzanzibar.go.tz/index.php/media"><i class="fa fa-refresh"></i> More News and Events</a>
+                           </div>
+                     </div>
+                     <!-- /News -->
+
+                     <!-- Videos -->                  
+                     <div class="carousel-box owl-wrapper">
+                        <div class="title-section">
+                           <h2><span class="world">Videos</span></h2>
+                        </div>
+                        <div class="owl-carousel" data-num="2">
+                         
+                          <div class="item">
+                             <div class="news-post video-post">
+                                <div class="news-post iframe-post">
+                                  <video width="100%" height="200" class="news-post iframe-post" controls>
+                                     <source src="https://www.ikuluzanzibar.go.tz/uploads/WhatsApp_Video_2026-05-09_at_20.36.36.mp4" type="video/mp4" />
+                                 </video>
+                               </div>
+                            </div>
+                          </div>
+                         
+                          <div class="item">
+                             <div class="news-post video-post">
+                                <div class="news-post iframe-post">
+                                  <video width="100%" height="200" class="news-post iframe-post" controls>
+                                     <source src="https://www.ikuluzanzibar.go.tz/uploads/WhatsApp_Video_2026-05-09_at_14.11.57.mp4" type="video/mp4" />
+                                 </video>
+                               </div>
+                            </div>
+                          </div>
+                         
+                          <div class="item">
+                             <div class="news-post video-post">
+                                <div class="news-post iframe-post">
+                                  <video width="100%" height="200" class="news-post iframe-post" controls>
+                                     <source src="https://www.ikuluzanzibar.go.tz/uploads/WhatsApp_Video_2026-05-02_at_13.55.21.mp4" type="video/mp4" />
+                                 </video>
+                               </div>
+                            </div>
+                          </div>
+                         
+                          <div class="item">
+                             <div class="news-post video-post">
+                                <div class="news-post iframe-post">
+                                  <video width="100%" height="200" class="news-post iframe-post" controls>
+                                     <source src="" type="video/mp4" />
+                                 </video>
+                               </div>
+                            </div>
+                          </div>
+                         
+                          <div class="item">
+                             <div class="news-post video-post">
+                                <div class="news-post iframe-post">
+                                  <video width="100%" height="200" class="news-post iframe-post" controls>
+                                     <source src="https://www.ikuluzanzibar.go.tz/uploads/WhatsApp_Video_2026-04-15_at_14.42.54.mp4" type="video/mp4" />
+                                 </video>
+                               </div>
+                            </div>
+                          </div>
+                         
+                          <div class="item">
+                             <div class="news-post video-post">
+                                <div class="news-post iframe-post">
+                                  <video width="100%" height="200" class="news-post iframe-post" controls>
+                                     <source src="" type="video/mp4" />
+                                 </video>
+                               </div>
+                            </div>
+                          </div>
+                         
+                          <div class="item">
+                             <div class="news-post video-post">
+                                <div class="news-post iframe-post">
+                                  <video width="100%" height="200" class="news-post iframe-post" controls>
+                                     <source src="" type="video/mp4" />
+                                 </video>
+                               </div>
+                            </div>
+                          </div>
+                         
+                          <div class="item">
+                             <div class="news-post video-post">
+                                <div class="news-post iframe-post">
+                                  <video width="100%" height="200" class="news-post iframe-post" controls>
+                                     <source src="https://www.ikuluzanzibar.go.tz/uploads/WhatsApp_Video_2026-04-01_at_14.25.39.mp4" type="video/mp4" />
+                                 </video>
+                               </div>
+                            </div>
+                          </div>
+                        
+                        </div>
+                     </div>
+                     <!-- /Videos -->
+                  </div>
+               </div>
+
+               <div class="col-sm-4">
+                  <div class="sidebar">
+                     <div class="widget social-widget">
+    <div class="title-section">
+        <h2><span>Facebook</span></h2>
     </div>
-
-    <!-- About Section -->
-    <section class="about" id="about">
-        <div class="section-header">
-            <span class="section-tag">About Me</span>
-            <h2 class="section-title">Who <span class="gradient-text">I Am</span></h2>
-        </div>
-        <div class="about-content">
-            <div class="about-text">
-                <p>I am a dedicated student with a passion for academic excellence and personal development. 
-                   My journey is characterized by curiosity, perseverance, and a commitment to achieving my goals. 
-                   I believe that education is the foundation of success.</p>
-                <p>Through this website, I share my experiences, achievements, and aspirations with the world. 
-                   Join me on this journey of growth and discovery.</p>
-            </div>
-            <div class="about-cards">
-                <div class="about-card">
-                    <div class="card-icon"><i class="fas fa-graduation-cap"></i></div>
-                    <h3>Academic Excellence</h3>
-                    <p>Consistently achieving top grades with A+ performance</p>
-                </div>
-                <div class="about-card">
-                    <div class="card-icon"><i class="fas fa-lightbulb"></i></div>
-                    <h3>Innovation</h3>
-                    <p>Creative solutions to complex problems</p>
-                </div>
-                <div class="about-card">
-                    <div class="card-icon"><i class="fas fa-target"></i></div>
-                    <h3>Focus</h3>
-                    <p>Unwavering dedication to goals</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section class="projects" id="projects">
-        <div class="section-header">
-            <span class="section-tag">Portfolio</span>
-            <h2 class="section-title">My <span class="gradient-text">Projects</span></h2>
-        </div>
-        <div class="projects-grid">
-            <div class="project-card">
-                <div class="project-image">
-                    <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=600&h=400&fit=crop" 
-                         alt="Sequences & Series Mathematics Notes - Study Material" 
-                         width="600" 
-                         height="400" 
-                         loading="lazy">
-                    <div class="project-overlay">
-                        <a href="https://0473aa7733.cbaul-cdnwnd.com/56df75c58f19b6772e9fe87c73357754/200000036-c8fb2c8fb3/Sequences%20and%20Series%20Notes.pdf?ph=0473aa7733" target="_blank" class="project-link">
-                            <i class="fas fa-external-link-alt"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="project-info">
-                    <h3>Sequences & Series Notes</h3>
-                    <p>Comprehensive study notes covering arithmetic & geometric sequences</p>
-                    <div class="project-tags">
-                        <span>Mathematics</span>
-                        <span>Education</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="project-card">
-                <div class="project-image">
-                    <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?w=600&h=400&fit=crop" 
-                         alt="Personal Portfolio Website - Web Development Project" 
-                         width="600" 
-                         height="400" 
-                         loading="lazy">
-                    <div class="project-overlay">
-                        <a href="https://habilmajid7-byte.github.io/nexgen-website/" target="_blank" class="project-link">
-                            <i class="fas fa-external-link-alt"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="project-info">
-                    <h3>Personal Portfolio</h3>
-                    <p>Modern responsive portfolio with glassmorphism design</p>
-                    <div class="project-tags">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JS</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="project-card">
-                <div class="project-image">
-                    <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&h=400&fit=crop" 
-                         alt="Academic Dashboard - Data Analytics System" 
-                         width="600" 
-                         height="400" 
-                         loading="lazy">
-                    <div class="project-overlay">
-                        <a href="#" class="project-link">
-                            <i class="fas fa-external-link-alt"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="project-info">
-                    <h3>Academic Dashboard</h3>
-                    <p>Comprehensive academic tracking and analytics system</p>
-                    <div class="project-tags">
-                        <span>Data</span>
-                        <span>Analytics</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section class="skills" id="skills">
-        <div class="section-header">
-            <span class="section-tag">Expertise</span>
-            <h2 class="section-title">My <span class="gradient-text">Skills</span></h2>
-        </div>
-        <div class="skills-grid">
-            <div class="skill-card">
-                <div class="skill-icon"><i class="fas fa-calculator"></i></div>
-                <h3>Mathematics</h3>
-                <p>Advanced problem-solving and analytical thinking</p>
-                <div class="skill-bar"><div class="skill-progress" style="width: 95%"></div></div>
-            </div>
-            <div class="skill-card">
-                <div class="skill-icon"><i class="fas fa-code"></i></div>
-                <h3>Programming</h3>
-                <p>HTML, CSS, JavaScript fundamentals</p>
-                <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
-            </div>
-            <div class="skill-card">
-                <div class="skill-icon"><i class="fas fa-language"></i></div>
-                <h3>Languages</h3>
-                <p>English, Arabic proficiency</p>
-                <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
-            </div>
-            <div class="skill-card">
-                <div class="skill-icon"><i class="fas fa-pen-fancy"></i></div>
-                <h3>Writing</h3>
-                <p>Academic and creative writing skills</p>
-                <div class="skill-bar"><div class="skill-progress" style="width: 88%"></div></div>
-            </div>
-            <div class="skill-card">
-                <div class="skill-icon"><i class="fas fa-users"></i></div>
-                <h3>Communication</h3>
-                <p>Effective presentation and teamwork</p>
-                <div class="skill-bar"><div class="skill-progress" style="width: 92%"></div></div>
-            </div>
-            <div class="skill-card">
-                <div class="skill-icon"><i class="fas fa-clock"></i></div>
-                <h3>Time Management</h3>
-                <p>Efficient task prioritization and planning</p>
-                <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Goals Section -->
-    <section class="goals" id="goals">
-        <div class="section-header">
-            <span class="section-tag">Future</span>
-            <h2 class="section-title">My <span class="gradient-text">Goals</span></h2>
-        </div>
-        <div class="goals-container">
-            <div class="goal-card">
-                <div class="goal-number">01</div>
-                <div class="goal-content">
-                    <h3>Higher Education</h3>
-                    <p>Gain admission to a prestigious university to pursue advanced studies in my field of interest</p>
-                </div>
-            </div>
-            <div class="goal-card">
-                <div class="goal-number">02</div>
-                <div class="goal-content">
-                    <h3>Technical Expertise</h3>
-                    <p>Master advanced programming skills and contribute to open-source projects</p>
-                </div>
-            </div>
-            <div class="goal-card">
-                <div class="goal-number">03</div>
-                <div class="goal-content">
-                    <h3>Leadership</h3>
-                    <p>Develop leadership skills and mentor other students on their academic journey</p>
-                </div>
-            </div>
-            <div class="goal-card">
-                <div class="goal-number">04</div>
-                <div class="goal-content">
-                    <h3>Global Impact</h3>
-                    <p>Apply knowledge to solve real-world problems and make a positive impact globally</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="contact" id="contact">
-        <div class="section-header">
-            <span class="section-tag">Contact</span>
-            <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
-        </div>
-        <div class="contact-container">
-            <div class="contact-info">
-                <h3>Let's Connect</h3>
-                <p>Feel free to reach out for collaborations, questions, or just to say hello!</p>
-                <div class="contact-items">
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <span>habilmajid7@gmail.com</span>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <span> Tanzania</span>
-                    </div>
-                </div>
-                <div class="social-links">
-                    <a href="https://github.com/habilmajid7-byte" class="social-link"><i class="fab fa-github"></i></a>
-                    <a href="https://www.instagram.com/mr_a.l.p.h.a_09/" class="social-link"><i class="fab fa-instagram"></i></a>
-                </div>
-            </div>
-            <form class="contact-form" id="contactForm" action="https://formspree.io/f/mojpadlv" method="POST">
-                <div class="form-group">
-                    <input type="text" name="name" placeholder="Your Name" required>
-                </div>
-                <div class="form-group">
-                    <input type="email" name="email" placeholder="Your Email" required>
-                </div>
-                <div class="form-group">
-                    <textarea name="message" placeholder="Your Message" required></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">
-                    <i class="fas fa-paper-plane"></i>
-                    Send Message
-                </button>
-            </form>
-        </div>
-    </section>
-
-    <!-- Report a Problem Section -->
-    <section class="report-problem" id="report">
-        <div class="section-header">
-            <span class="section-tag">Support</span>
-            <h2 class="section-title">Report a <span class="gradient-text">Problem</span></h2>
-        </div>
-        <div class="report-container">
-            <div class="report-info">
-                <h3>Report Issues</h3>
-                <p>Found a bug or have feedback? Let me know so I can improve the experience!</p>
-                <div class="report-features">
-                    <div class="report-feature">
-                        <i class="fas fa-bug"></i>
-                        <span>Bug Reports</span>
-                    </div>
-                    <div class="report-feature">
-                        <i class="fas fa-lightbulb"></i>
-                        <span>Feature Requests</span>
-                    </div>
-                    <div class="report-feature">
-                        <i class="fas fa-question-circle"></i>
-                        <span>General Feedback</span>
-                    </div>
-                </div>
-            </div>
-            <form class="report-form" id="reportForm" action="https://formspree.io/f/mojpadlv" method="POST">
-                <input type="hidden" name="_subject" value="Problem Report">
-                <div class="form-group">
-                    <input type="text" name="name" placeholder="Your Name" required>
-                </div>
-                <div class="form-group">
-                    <input type="email" name="email" placeholder="Your Email" required>
-                </div>
-                <div class="form-group">
-                    <select name="problem_type" required>
-                        <option value="">Select Problem Type</option>
-                        <option value="bug">Bug Report</option>
-                        <option value="feature">Feature Request</option>
-                        <option value="content">Content Issue</option>
-                        <option value="performance">Performance Issue</option>
-                        <option value="other">Other</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <textarea name="description" placeholder="Describe the problem in detail..." required></textarea>
-                </div>
-                <div class="form-group">
-                    <input type="file" name="screenshot" accept="image/*,.pdf,.doc,.docx" id="screenshotInput">
-                    <label for="screenshotInput" class="file-label">
-                        <i class="fas fa-upload"></i>
-                        Attach Screenshot/File (Optional)
-                    </label>
-                </div>
-                <button type="submit" class="btn btn-primary">
-                    <i class="fas fa-paper-plane"></i>
-                    Submit Report
-                </button>
-            </form>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="footer-content">
-            <div class="footer-brand">
-                <a href="#home" class="logo">
-                    <span class="logo-icon">◈</span>
-                    <span class="logo-text">HABIL</span>
-                </a>
-                <p>Building the future, one step at a time. Dedicated to academic excellence and personal growth.</p>
-            </div>
-            <div class="footer-links">
-                <h4>Quick Links</h4>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-            <div class="footer-links">
-                <h4>Resources</h4>
-                <ul>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="faq.html">FAQ</a></li>
-                    <li><a href="privacy-policy.html">Privacy</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#goals">Goals</a></li>
-                </ul>
-            </div>
-            <div class="footer-links">
-                <h4>Contact</h4>
-                <ul>
-                    <li><a href="mailto:habilmajid7@gmail.com">Email</a></li>
-                    <li><a href="https://www.google.com/maps?q=Tanzania">Location</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2026 Habil Haji Majid. Built with <i class="fas fa-heart"></i> v5.1</p>
-        </div>
-    </footer>
-
-    <!-- Scroll to Top -->
-    <button class="scroll-top" id="scrollTop">
-        <i class="fas fa-arrow-up"></i>
-    </button>
-
-    <!-- Chatbot -->
-    <div class="chatbot" id="chatbot">
-        <button class="chatbot-toggle" id="chatbotToggle">
-            <i class="fas fa-robot"></i>
-        </button>
-        <div class="chatbot-window" id="chatbotWindow">
-            <div class="chatbot-header">
-                <div class="chatbot-title">
-                    <i class="fas fa-robot"></i>
-                    <span>Habil AI</span>
-                </div>
-                <button class="chatbot-close" id="chatbotClose">
-                    <i class="fas fa-times"></i>
-                </button>
-            </div>
-            <div class="chatbot-messages" id="chatbotMessages">
-                <div class="message bot">
-                    <div class="message-content">
-                        <p>Hello! I'm Habil's AI assistant. How can I help you today?</p>
-                    </div>
-                </div>
-            </div>
-            <div class="chatbot-input">
-                <input type="text" id="chatbotInput" placeholder="Type your message...">
-                <button id="chatbotSend">
-                    <i class="fas fa-paper-plane"></i>
-                </button>
-            </div>
-        </div>
-    </div>
-
-    <script>document.addEventListener('DOMContentLoaded', function() {
-    // Preload critical functions
-    requestAnimationFrame(() => {
-        initPreloader();
-        initNavbar();
-        initMobileMenu();
-        initSmoothScroll();
-        initScrollTop();
-        initChatbot();
-        initWhatsNewPopup();
-        initCanvasBackground();
-        initReportForm();
-        initAnnouncement();
-    });
-});
-
-function initPreloader() {
-    const preloader = document.getElementById('preloader');
-    if (!preloader) return;
-
-    const typingText = document.getElementById('typingText');
-    const progressFill = document.getElementById('progressFill');
-    const progressText = document.getElementById('progressText');
-    const statusLines = document.querySelectorAll('.status-line');
-    const particles = document.querySelectorAll('.particle');
-
-    const messages = [
-        'Initializing quantum core...',
-        'Loading neural networks...',
-        'Establishing secure connection...',
-        'System online - Access granted.'
-    ];
-
-    let progress = 0;
-    let currentMessage = 0;
-    let currentChar = 0;
-    let typingTimer = null;
-    let particleInterval = null;
-
-    function playBootSound() {
-        try {
-            const AudioContext = window.AudioContext || window.webkitAudioContext;
-            const audioCtx = new AudioContext();
-            const osc = audioCtx.createOscillator();
-            const gain = audioCtx.createGain();
-
-            osc.type = 'triangle';
-            osc.frequency.setValueAtTime(220, audioCtx.currentTime);
-            gain.gain.setValueAtTime(0.015, audioCtx.currentTime);
-
-            osc.connect(gain);
-            gain.connect(audioCtx.destination);
-
-            osc.start();
-            osc.frequency.exponentialRampToValueAtTime(880, audioCtx.currentTime + 0.5);
-            gain.gain.exponentialRampToValueAtTime(0.0001, audioCtx.currentTime + 0.7);
-            osc.stop(audioCtx.currentTime + 0.75);
-        } catch (error) {
-            // Audio may be blocked on some devices.
-        }
-    }
-
-    function animateParticles() {
-        particles.forEach((particle, index) => {
-            const delay = index * 200;
-            setTimeout(() => {
-                particle.style.animationPlayState = 'running';
-            }, delay);
-        });
-    }
-
-    function setActiveStatus(index) {
-        statusLines.forEach((line, idx) => {
-            if (idx <= index) {
-                line.classList.add('active');
-                // Add a subtle glow effect
-                setTimeout(() => {
-                    line.style.textShadow = '0 0 8px rgba(0,245,212,0.3)';
-                }, idx * 100);
-            } else {
-                line.classList.remove('active');
-                line.style.textShadow = '';
-            }
-        });
-    }
-
-    function typeNextChar() {
-        const message = messages[currentMessage];
-        if (currentChar < message.length) {
-            typingText.textContent += message[currentChar++];
-            const delay = 25 + Math.random() * 20;
-            typingTimer = setTimeout(typeNextChar, delay);
-        } else {
-            currentMessage++;
-            currentChar = 0;
-            if (currentMessage < messages.length) {
-                setTimeout(() => {
-                    typingText.textContent = '';
-                    setActiveStatus(currentMessage);
-                    typeNextChar();
-                }, 800);
-            }
-        }
-    }
-
-    function finishPreloader() {
-        clearTimeout(typingTimer);
-        clearInterval(particleInterval);
-        progressFill.style.width = '100%';
-        progressText.textContent = '100%';
-        setActiveStatus(messages.length - 1);
-        typingText.textContent = messages[messages.length - 1];
-
-        // Add final glow effect
-        progressFill.style.boxShadow = '0 0 30px rgba(0,245,212,0.8), 0 0 60px rgba(0,245,212,0.4)';
-
-        setTimeout(() => {
-            preloader.classList.add('hidden');
-            setTimeout(() => preloader.remove(), 1500);
-        }, 500);
-    }
-
-    // Initialize animations
-    playBootSound();
-    animateParticles();
-    typingText.textContent = '';
-    setActiveStatus(0);
-    typeNextChar();
-
-    // Enhanced progress animation
-    const progressInterval = setInterval(() => {
-        if (progress >= 100) {
-            clearInterval(progressInterval);
-            finishPreloader();
-            return;
-        }
-
-        progress += 0.8 + Math.random() * 1.5;
-        if (progress > 100) progress = 100;
-        progressFill.style.width = progress + '%';
-        progressText.textContent = `${Math.floor(progress)}%`;
-
-        // Dynamic glow based on progress
-        const glowIntensity = Math.min(progress / 100, 1);
-        progressFill.style.boxShadow = `0 0 ${16 + glowIntensity * 20}px rgba(0,245,212,${0.5 + glowIntensity * 0.3})`;
-    }, 50);
-
-    // Particle animation loop
-    particleInterval = setInterval(() => {
-        particles.forEach(particle => {
-            const currentOpacity = parseFloat(getComputedStyle(particle).opacity) || 0.5;
-            const newOpacity = 0.3 + Math.random() * 0.7;
-            particle.style.opacity = newOpacity;
-        });
-    }, 3000);
-}
-
-function initNavbar() {
-    const navbar = document.getElementById('navbar');
-    if (!navbar) return;
-    
-    let lastScrollTime = 0;
-    let isScrolled = false;
-    
-    window.addEventListener('scroll', function() {
-        var now = Date.now();
-        if (now - lastScrollTime > 100) {
-            lastScrollTime = now;
-            var shouldBeScrolled = window.scrollY > 50;
-            if (shouldBeScrolled !== isScrolled) {
-                isScrolled = shouldBeScrolled;
-                if (isScrolled) {
-                    navbar.classList.add('scrolled');
-                } else {
-                    navbar.classList.remove('scrolled');
-                }
-            }
-        }
-    }, { passive: true });
-}
-
-function initMobileMenu() {
-    const menuToggle = document.getElementById('menuToggle');
-    const navLinks = document.getElementById('navLinks');
-    if (!menuToggle || !navLinks) return;
-    
-    menuToggle.addEventListener('click', function() {
-        menuToggle.classList.toggle('active');
-        navLinks.classList.toggle('active');
-    });
-    
-    navLinks.querySelectorAll('a').forEach(function(link) {
-        link.addEventListener('click', function() {
-            menuToggle.classList.remove('active');
-            navLinks.classList.remove('active');
-        });
-    });
-}
-
-function initSmoothScroll() {
-    document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
-        anchor.addEventListener('click', function(e) {
-            e.preventDefault();
-            const target = document.querySelector(this.getAttribute('href'));
-            if (target) {
-                target.scrollIntoView({
-                    behavior: 'smooth',
-                    block: 'start'
-                });
-            }
-        });
-    });
-}
-
-function initScrollTop() {
-    const scrollTop = document.getElementById('scrollTop');
-    if (!scrollTop) return;
-    
-    let lastScrollTime = 0;
-    let isVisible = false;
-    
-    window.addEventListener('scroll', function() {
-        var now = Date.now();
-        if (now - lastScrollTime > 100) {
-            lastScrollTime = now;
-            var shouldBeVisible = window.scrollY > 500;
-            if (shouldBeVisible !== isVisible) {
-                isVisible = shouldBeVisible;
-                if (isVisible) {
-                    scrollTop.classList.add('visible');
-                } else {
-                    scrollTop.classList.remove('visible');
-                }
-            }
-        }
-    }, { passive: true });
-    
-    scrollTop.addEventListener('click', function() {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        });
-    });
-}
-
-function initChatbot() {
-    const chatbotToggle = document.getElementById('chatbotToggle');
-    const chatbotWindow = document.getElementById('chatbotWindow');
-    const chatbotClose = document.getElementById('chatbotClose');
-    const chatbotInput = document.getElementById('chatbotInput');
-    const chatbotSend = document.getElementById('chatbotSend');
-    const chatbotMessages = document.getElementById('chatbotMessages');
-    
-    if (!chatbotToggle || !chatbotWindow) return;
-
-    let isTyping = false;
-    let typingTimeout = null;
-
-    chatbotToggle.addEventListener('click', function() {
-        chatbotWindow.classList.toggle('active');
-        if (chatbotWindow.classList.contains('active')) {
-            chatbotInput.focus();
-        }
-    });
-    
-    if (chatbotClose) {
-        chatbotClose.addEventListener('click', function() {
-            chatbotWindow.classList.remove('active');
-        });
-    }
-    
-    function sendMessage() {
-        if (isTyping) return;
-        const message = chatbotInput.value.trim();
-        if (!message) return;
-        
-        addMessage(message, 'user');
-        chatbotInput.value = '';
-        chatbotInput.focus();
-
-        showTyping();
-        chatbotSend.disabled = true;
-        isTyping = true;
-        
-        let response;
-        try {
-            response = getBotResponse(message);
-        } catch (error) {
-            console.error('Chatbot response error:', error);
-            response = 'Oops, something went wrong. Please try again.';
-        }
-
-        const delay = 300 + Math.min(message.length * 10, 320) + Math.random() * 120;
-
-        typingTimeout = setTimeout(function() {
-            removeTyping();
-            addMessage(response, 'bot');
-            isTyping = false;
-            chatbotSend.disabled = false;
-        }, delay);
-    }
-    
-    function addMessage(text, type) {
-        const messageDiv = document.createElement('div');
-        messageDiv.className = 'message ' + type;
-        const contentDiv = document.createElement('div');
-        contentDiv.className = 'message-content';
-        const paragraph = document.createElement('p');
-        paragraph.textContent = text;
-        contentDiv.appendChild(paragraph);
-        messageDiv.appendChild(contentDiv);
-        chatbotMessages.appendChild(messageDiv);
-        chatbotMessages.scrollTo({ top: chatbotMessages.scrollHeight, behavior: 'smooth' });
-    }
-    
-    function showTyping() {
-        removeTyping();
-        const typingDiv = document.createElement('div');
-        typingDiv.className = 'typing-indicator';
-        typingDiv.id = 'typingIndicator';
-        typingDiv.innerHTML = '<span></span><span></span><span></span>';
-        chatbotMessages.appendChild(typingDiv);
-        chatbotMessages.scrollTo({ top: chatbotMessages.scrollHeight, behavior: 'smooth' });
-    }
-    
-    function removeTyping() {
-        const typing = document.getElementById('typingIndicator');
-        if (typing) typing.remove();
-    }
-    
-    function getBotResponse(input) {
-        const normalized = input.trim().toLowerCase();
-        const responses = {
-            'hello': 'Hello! Welcome to my website. How can I help you today?',
-            'hi': 'Hi there! Great to have you here. What would you like to know?',
-            'hey': 'Hey! How can I assist you?',
-            'who are you': "I'm Habil's AI assistant. I can tell you about my portfolio, skills, projects, or how to contact me.",
-            'about': 'I am Habil Haji Majid, a dedicated student with passion for academic excellence and personal development. This website showcases my journey.',
-            'skills': 'My key skills include Mathematics, Programming (HTML/CSS/JS), Languages (English, Somali, Arabic), Writing, Communication, and Time Management.',
-            'projects': 'I have several projects including Sequences & Series Notes, a Personal Portfolio Website, and an Academic Dashboard. Check the Projects section for more!',
-            'contact': 'You can contact me through the contact form or email. Check the Contact section for details!',
-            'location': 'I am based in Somalia. Feel free to reach out!',
-            'education': 'I am a student focused on academic excellence, consistently achieving top grades.',
-            'goals': 'My goals include pursuing higher education, mastering technical skills, developing leadership, and making a global impact.',
-            'help': 'I can help you with information about: About Me, Skills, Projects, Contact, Goals, or anything else you curious about!',
-            'default': "Thanks for your message! I'm here to help. Ask me about my skills, projects, or how to contact me. You can also check out the navigation menu above!"
-        };
-        
-        for (const key in responses) {
-            if (normalized.includes(key)) {
-                return responses[key];
-            }
-        }
-        
-        return responses['default'];
-    }
-    
-    if (chatbotSend) {
-        chatbotSend.addEventListener('click', sendMessage);
-    }
-    
-    if (chatbotInput) {
-        chatbotInput.addEventListener('keypress', function(e) {
-            if (e.key === 'Enter') {
-                e.preventDefault();
-                sendMessage();
-            }
-        });
-    }
-}
-
-function initWhatsNewPopup() {
-    const popup = document.getElementById('whatsNewPopup');
-    const closeBtn = document.getElementById('popupClose');
-    
-    if (!popup) return;
-    
-    setTimeout(function() {
-        popup.style.opacity = '0';
-        setTimeout(function() {
-            popup.style.display = 'none';
-        }, 300);
-    }, 8000);
-    
-    if (closeBtn) {
-        closeBtn.addEventListener('click', function() {
-            popup.style.opacity = '0';
-            setTimeout(function() {
-                popup.style.display = 'none';
-            }, 300);
-        });
-    }
-}
-
-function initCanvasBackground() {
-    const canvas = document.getElementById('bgCanvas');
-    if (!canvas) return;
-    
-    const ctx = canvas.getContext('2d', { alpha: true });
-    if (!ctx) return;
-    
-    var particles = [];
-    // Adaptive particle count based on device capability
-    var particleCount = window.innerWidth < 768 ? 30 : (window.innerWidth < 1024 ? 45 : 60);
-    var animationFrameId = null;
-    var lastResizeTime = 0;
-    
-    function resize() {
-        canvas.width = window.innerWidth;
-        canvas.height = window.innerHeight;
-    }
-    
-    function createParticles() {
-        particles = [];
-        for (var i = 0; i < particleCount; i++) {
-            particles.push({
-                x: Math.random() * canvas.width,
-                y: Math.random() * canvas.height,
-                vx: (Math.random() - 0.5) * 0.5,
-                vy: (Math.random() - 0.5) * 0.5,
-                size: Math.random() * 2 + 1,
-                color: getRandomColor()
-            });
-        }
-    }
-    
-    function getRandomColor() {
-        var colors = ['#00f5d4', '#7b2cbf', '#ff006e'];
-        return colors[Math.floor(Math.random() * colors.length)];
-    }
-    
-    function animate() {
-        ctx.clearRect(0, 0, canvas.width, canvas.height);
-        
-        particles.forEach(function(p, i) {
-            p.x += p.vx;
-            p.y += p.vy;
+	<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FIkuluzanzi%2F&tabs=timeline&width=360&height=630&small_header=true&adapt_container_width=false&hide_cover=false&show_facepile=true&appId" width="360" height="630" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+</div>
+                     <div class="widget tab-posts-widget">
+   <div class="title-section">
+      <h2><span class="world">Publications</span></h2>
+   </div>
+   <div class="tab-content">
+      <div class="tab-pane active" id="option1">
+         <ul class="list-posts">
             
-            if (p.x < 0) p.x = canvas.width;
-            if (p.x > canvas.width) p.x = 0;
-            if (p.y < 0) p.y = canvas.height;
-            if (p.y > canvas.height) p.y = 0;
+            <li>
+              <a href="https://www.ikuluzanzibar.go.tz/index.php/publications/view/hotuba-ya-waziri-wa-nchi-afisi-ya-rais-ikulu-mheshimiwa-dkt-saada-mkuya-salum-mbm-kuhusu-makadirio-ya-mapato-na-matumizi-kwa-mwaka-wa-fedha-2026-2027"><i class="fa fa-file-text-o"></i></a>
+              <div class="post-content">
+                <h2><a href="https://www.ikuluzanzibar.go.tz/index.php/publications/view/hotuba-ya-waziri-wa-nchi-afisi-ya-rais-ikulu-mheshimiwa-dkt-saada-mkuya-salum-mbm-kuhusu-makadirio-ya-mapato-na-matumizi-kwa-mwaka-wa-fedha-2026-2027">Hotuba ya Waziri wa Nchi Afisi ya Rais - Ikulu &nbsp; Mheshimiwa Dkt. Saada Mkuya Salum (MBM) kuhusu makadirio ya mapato na matumizi &nbsp; kwa mwaka wa Fedha 2026/2027.</a></h2>
+                <ul class="post-tags">
+                  <li><i class="fa fa-clock-o"></i>08 May 2026</li>
+                </ul>
+              </div>
+            </li>
+                                          
             
-            ctx.beginPath();
-            ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
-            ctx.fillStyle = p.color;
-            ctx.fill();
+            <li>
+              <a href="https://www.ikuluzanzibar.go.tz/index.php/publications/view/hotuba-ya-waziri-wa-nchi-afisi-ya-rais-ikulu-mheshimiwa-dkt-saada-mkuya-salum-mbm-makadirio-ya-mapato-na-matumizi-mwaka-wa-fedha-2026-2027"><i class="fa fa-file-text-o"></i></a>
+              <div class="post-content">
+                <h2><a href="https://www.ikuluzanzibar.go.tz/index.php/publications/view/hotuba-ya-waziri-wa-nchi-afisi-ya-rais-ikulu-mheshimiwa-dkt-saada-mkuya-salum-mbm-makadirio-ya-mapato-na-matumizi-mwaka-wa-fedha-2026-2027">Hotuba ya Waziri wa Nchi Afisi ya Rais - Ikulu &nbsp; Mheshimiwa Dkt. Saada Mkuya Salum (MBM) makadirio ya mapato na matumizi  mwaka wa Fedha 2026/2027.</a></h2>
+                <ul class="post-tags">
+                  <li><i class="fa fa-clock-o"></i>08 May 2026</li>
+                </ul>
+              </div>
+            </li>
+                                          
             
-            // Reduce connection checks on mobile
-            var checkLimit = window.innerWidth < 768 ? 8 : 12;
-            for (var j = i + 1; j < Math.min(i + checkLimit, particles.length); j++) {
-                var p2 = particles[j];
-                var dx = p.x - p2.x;
-                var dy = p.y - p2.y;
-                var distSquared = dx * dx + dy * dy;
-                var distLimit = 22500; // 150^2
-                
-                if (distSquared < distLimit) {
-                    ctx.beginPath();
-                    ctx.moveTo(p.x, p.y);
-                    ctx.lineTo(p2.x, p2.y);
-                    var distance = Math.sqrt(distSquared);
-                    ctx.strokeStyle = 'rgba(0, 245, 212, ' + (1 - distance / 150) * 0.15 + ')';
-                    ctx.lineWidth = 0.5;
-                    ctx.stroke();
-                }
-            }
-        });
-        
-        animationFrameId = requestAnimationFrame(animate);
-    }
+            <li>
+              <a href="https://www.ikuluzanzibar.go.tz/index.php/publications/view/risala-ya-rais-wa-zanzibar-na-mwenyekiti-wa-baraza-la-mapinduzi-mheshimiwa-al-haj-dk-hussein-ali-mwinyi-ya-kuukaribisha-mwezi-mtukufu-wa-ramadhani-kwa-mwaka-2026-miladia-sawa-na-mwaka-1447-hijria"><i class="fa fa-file-text-o"></i></a>
+              <div class="post-content">
+                <h2><a href="https://www.ikuluzanzibar.go.tz/index.php/publications/view/risala-ya-rais-wa-zanzibar-na-mwenyekiti-wa-baraza-la-mapinduzi-mheshimiwa-al-haj-dk-hussein-ali-mwinyi-ya-kuukaribisha-mwezi-mtukufu-wa-ramadhani-kwa-mwaka-2026-miladia-sawa-na-mwaka-1447-hijria">Risala ya Rais wa Zanzibar na Mwenyekiti wa Baraza la Mapinduzi Mheshimiwa Al Haj Dk. Hussein Ali Mwinyi ya Kuukaribisha Mwezi Mtukufu wa Ramadhani kwa Mwaka 2026 Miladia, sawa na Mwaka 1447 Hijria.</a></h2>
+                <ul class="post-tags">
+                  <li><i class="fa fa-clock-o"></i>18 Feb 2026</li>
+                </ul>
+              </div>
+            </li>
+                                          
+            
+            <li>
+              <a href="https://www.ikuluzanzibar.go.tz/index.php/publications/view/hotuba-ya-rais-wa-zanzibar-na-mwenyekiti-wa-baraza-la-mapinduzi-mheshimiwa-dk-hussein-ali-mwinyi-katika-ufunguzi-wa-jengo-la-huduma-za-matibabu-ya-dharura-na-maabara-kwenye-kituo-cha-afya-makunduchi"><i class="fa fa-file-text-o"></i></a>
+              <div class="post-content">
+                <h2><a href="https://www.ikuluzanzibar.go.tz/index.php/publications/view/hotuba-ya-rais-wa-zanzibar-na-mwenyekiti-wa-baraza-la-mapinduzi-mheshimiwa-dk-hussein-ali-mwinyi-katika-ufunguzi-wa-jengo-la-huduma-za-matibabu-ya-dharura-na-maabara-kwenye-kituo-cha-afya-makunduchi">HOTUBA YA RAIS WA ZANZIBAR NA MWENYEKITI WA BARAZA LA MAPINDUZI MHESHIMIWA DK. HUSSEIN ALI MWINYI  KATIKA UFUNGUZI WA JENGO LA HUDUMA ZA MATIBABU YA DHARURA NA MAABARA KWENYE KITUO CHA AFYA MAKUNDUCHI</a></h2>
+                <ul class="post-tags">
+                  <li><i class="fa fa-clock-o"></i>17 Jan 2024</li>
+                </ul>
+              </div>
+            </li>
+                                          
+                                       
+         </ul>
+      </div>
+   </div>
+</div>
+
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      </section>
+
+   		<a id="toTop" href="#"><span></span></a> 
+        <div id="sticky-language">
+            <ul>
+                <li><a class="active la-en "href="https://www.ikuluzanzibar.go.tz/index.php/?ACT=54&amp;lang_id=1&amp;url=aHR0cHMlM0ElMkYlMkZ3d3cuaWt1bHV6YW56aWJhci5nby50eiUyRmluZGV4LnBocCUyRmluZGV4LnBocCUyRiUzRnV0bV9zb3VyY2UlM0RpZyUyNnV0bV9tZWRpdW0lM0Rzb2NpYWwlMjZ1dG1fY29udGVudCUzRGxpbmtfaW5fYmlvJTI2ZmJjbGlkJTNEUEFaWGgwYmdOaFpXMENNVEVBYzNKMFl3WmhjSEJmYVdRTU1qVTJNamd4TURRd05UVTRBQUduQUdTdkV0UXVxUDVOLTJxbUFHa19kcUFleGlWQjYydmx4UVhBUXpiR2VIMGNSNlc4ZWIwMVFvcjAwS3dfYWVtX1dQdEE5REdIRllTSmRiOWVZTlM3QWc="><span>English</span></a></li><li><a class=" la-sw "href="https://www.ikuluzanzibar.go.tz/index.php/?ACT=54&amp;lang_id=2&amp;url=aHR0cHMlM0ElMkYlMkZ3d3cuaWt1bHV6YW56aWJhci5nby50eiUyRmluZGV4LnBocCUyRmluZGV4LnBocCUyRiUzRnV0bV9zb3VyY2UlM0RpZyUyNnV0bV9tZWRpdW0lM0Rzb2NpYWwlMjZ1dG1fY29udGVudCUzRGxpbmtfaW5fYmlvJTI2ZmJjbGlkJTNEUEFaWGgwYmdOaFpXMENNVEVBYzNKMFl3WmhjSEJmYVdRTU1qVTJNamd4TURRd05UVTRBQUduQUdTdkV0UXVxUDVOLTJxbUFHa19kcUFleGlWQjYydmx4UVhBUXpiR2VIMGNSNlc4ZWIwMVFvcjAwS3dfYWVtX1dQdEE5REdIRllTSmRiOWVZTlM3QWc="><span>Swahili</span></a></li>
+            </ul>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="footer-widgets-part">
+                    <div class="row">
+                        <div class="col-md-2 col-sm-2">
+                            <div class="widget text-widget ft_emblem">
+                               <img src="https://www.ikuluzanzibar.go.tz/themes/user/site/images/rais_smz_logo.png" alt="President's Office and Chairman of Revolutionary Council, Zanzibar">
+                            </div>
+                        </div>
+
+                        <div class="col-md-2 col-sm-2">
+                            <div class="widget categories-widget grid_item first">
+                                <div class="title-section"><h2><span>Quick Links</span></h2></div>
+                                <ul class="category-list">
+                    				
+                    				<li><a href="https://www.ikuluzanzibar.go.tz/index.php/about/category/overview" title="Overview">Overview</a> </li>
+                    				
+                    				<li><a href="https://www.ikuluzanzibar.go.tz/index.php/about/category/vision-mission" title="Vision &amp; Mission ">Vision &amp; Mission </a> </li>
+                    				
+                                    <li><a href="https://www.ikuluzanzibar.go.tz/index.php/president" title="President">President</a> </li>
+                    				<li><a href="https://www.ikuluzanzibar.go.tz/index.php/president/past-presidents" title="Past Presidents">Past Presidents</a> </li>
+
+           						    
+                                    <li><a href="https://www.ikuluzanzibar.go.tz/index.php/administration/category/revolutionary-council" title="Revolutionary Council">Revolutionary Council</a> </li>
+                                    
+                                    <li><a href="https://www.ikuluzanzibar.go.tz/index.php/administration/category/office-of-the-president" title="Office of the President">Office of the President</a> </li>
+                                    
+
+                                    
+                                    <li><a href="https://www.ikuluzanzibar.go.tz/index.php/president/offices/category/government-security-office" title="Government Security Office (GSO)">Government Security Office (GSO)</a> </li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2 col-sm-2">
+                            <div class="widget categories-widget grid_item second">
+                                <div class="title-section"><h2><span>Categories</span></h2></div>
+                                <ul class="category-list">
+                                    <li><a href="https://www.ikuluzanzibar.go.tz/index.php/blog" title="Ikulu Blog">Blog</a> </li>
+           						    
+                    				<li><a href="https://www.ikuluzanzibar.go.tz/index.php/media/category/news-and-events" title="News and Events">News and Events</a> </li>
+                    				
+                    				<li><a href="https://www.ikuluzanzibar.go.tz/index.php/media/category/speeches-and-statements" title="Speeches and Statements">Speeches and Statements</a> </li>
+                    				
+                    				<li><a href="https://www.ikuluzanzibar.go.tz/index.php/media/category/press-releases" title="Press Releases">Press Releases</a> </li>
+                    				   
+                    				<li><a href="https://www.ikuluzanzibar.go.tz/index.php/media/photos" title="Photos">Photos</a> </li>
+							      	<li><a href="https://www.ikuluzanzibar.go.tz/index.php/media/videos" title="Videos">Videos</a> </li>
+                                    <li><a href="https://www.ikuluzanzibar.go.tz/index.php/about/links" title="Useful Links">Useful Links</a> </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-3">
+                            <div class="widget categories-widget grid_item third">
+                                <div class="title-section"><h2><span>Useful Links</span></h2></div>
+                                <ul class="category-list">
+                                     
+                                    <li><a href="https://www.omkr.go.tz/" title="First Vice President Office" target="_blank">First Vice President Office</a> </li>    
+                                    
+                                    <li><a href="https://www.ompr.go.tz/" title="Second Vice President Office" target="_blank">Second Vice President Office</a> </li>    
+                                    
+                                    <li><a href="https://www.blm.go.tz/" title="Chief Secretary Zanzibar" target="_blank">Chief Secretary Zanzibar</a> </li>    
+                                    
+                                    <li><a href="https://zanzibarassembly.go.tz/" title="House of Representatives" target="_blank">House of Representatives</a> </li>    
+                                    
+                                    <li><a href="https://www.zipa.go.tz/" title="Zanzibar Investment Promotion Authority" target="_blank">Zanzibar Investment Promotion Authority</a> </li>    
+                                    
+                                    <li><a href="https://mofzanzibar.go.tz/" title="Ministry of State, President's Office, Finance and Planning" target="_blank">Ministry of State, President's Office, Finance and Planning</a> </li>    
+                                    
+                                    <li><a href="https://zanvibali.goz.go.tz/" title="Mfumo wa Vibali vya Kusafiri Nje ya Nchi" target="_blank">Mfumo wa Vibali vya Kusafiri Nje ya Nchi</a> </li>    
+                                        
+                                        
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-3">
+                            
+                            <div class="widget flickr-widget grid_item fouth">
+                                <div class="widget social-widget">
+                                    <ul class="social-icons">
+                                        <li> <a class="instagram" href="https://www.instagram.com/_____.m.r.___/"> <i class="fa fa-instagram"></i> </a> </li>
+                                        <li> <a class="github" href="https://github.com/habilmajid7-byte/"> <i class="fa fa-github"></i> </a> </li>
+                                        <li> <a class="flag" href="https://habilmajid7-byte.github.io/report/"> <i class="fa fa-flag"></i> </a> </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <section class="footbar">
+            <div class="container">
+                <div class="footer-last-line">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p>&copy; Copyright 2026 - Habeel's Office |Student • Developer • Innovator</p>
+                        </div>
+                        <div class="col-md-6">
+                            <nav class="footer-nav">
+                                <ul>
+                                    <li><a href="https://www.ikuluzanzibar.go.tz/index.php/">Home</a></li>
+                                    <li><a href="https://www.ikuluzanzibar.go.tz/index.php/about/category/privacy-policy">Privacy Policy</a></li>
+                                    <li><a href="https://www.ikuluzanzibar.go.tz/index.php/contacts">Feedback</a></li>
+ 									<li><a href="http://eoffice.goz.go.tz">E-Office</a></li>
+                                    <li><a href="https://mail.ikuluzanzibar.go.tz/" target="_blank">Webmail</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+   </div>
+   <script type="text/javascript" src="https://www.ikuluzanzibar.go.tz/themes/user/site/js/jquery.min.js"></script>
+<script type="text/javascript" src="https://www.ikuluzanzibar.go.tz/themes/user/site/js/jquery.migrate.js"></script>
+<script type="text/javascript" src="https://www.ikuluzanzibar.go.tz/themes/user/site/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://www.ikuluzanzibar.go.tz/themes/user/site/js/vendors.js"></script>
+<script type="text/javascript" src="https://www.ikuluzanzibar.go.tz/themes/user/site/js/script.js"></script>
     
-    resize();
-    createParticles();
-    animate();
-    
-    // Throttled resize handler
-    window.addEventListener('resize', function() {
-        var now = Date.now();
-        if (now - lastResizeTime > 250) {
-            lastResizeTime = now;
-            resize();
-            createParticles();
-        }
-    }, false);
-    
-    // Cleanup on visibility change
-    document.addEventListener('visibilitychange', function() {
-        if (document.hidden && animationFrameId) {
-            cancelAnimationFrame(animationFrameId);
-        } else if (!document.hidden) {
-            animate();
-        }
-    });
-}
 
-function initAnnouncement() {
-    const bar = document.getElementById('announcementBar');
-    const text = document.getElementById('announcementText');
-    const bell = document.getElementById('announcementBell');
-    if (!bar || !text || !bell) return;
 
-    const version = bar.dataset.version || '5.1';
-    text.innerHTML = `<span>Version <span class="announcement-version">${version}</span> Released</span>`;
 
-    function showToast(message) {
-        const toast = document.createElement('div');
-        toast.className = 'announcement-toast';
-        toast.textContent = message;
-        document.body.appendChild(toast);
-
-        requestAnimationFrame(() => toast.classList.add('show'));
-        setTimeout(() => toast.classList.remove('show'), 2400);
-        setTimeout(() => toast.remove(), 2800);
-    }
-
-    bell.addEventListener('click', function() {
-        const active = this.classList.toggle('active');
-        showToast(active ? 'Announcements enabled' : 'Announcements muted');
-    });
-}
-
-function initReportForm() {
-    const reportForm = document.getElementById('reportForm');
-    if (!reportForm) return;
-
-    reportForm.addEventListener('submit', function(e) {
-        e.preventDefault();
-
-        const formData = new FormData(this);
-        const submitBtn = this.querySelector('button[type="submit"]');
-        const originalText = submitBtn.innerHTML;
-
-        // Show loading state
-        submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
-        submitBtn.disabled = true;
-
-        fetch(this.action, {
-            method: 'POST',
-            body: formData,
-            headers: {
-                'Accept': 'application/json'
-            }
-        })
-        .then(response => response.json())
-        .then(data => {
-            if (data.ok) {
-                // Success
-                submitBtn.innerHTML = '<i class="fas fa-check"></i> Sent!';
-                submitBtn.style.background = 'var(--success-color)';
-                this.reset();
-
-                setTimeout(() => {
-                    submitBtn.innerHTML = originalText;
-                    submitBtn.disabled = false;
-                    submitBtn.style.background = '';
-                }, 3000);
-            } else {
-                throw new Error('Form submission failed');
-            }
-        })
-        .catch(error => {
-            console.error('Error:', error);
-            submitBtn.innerHTML = '<i class="fas fa-exclamation-triangle"></i> Error';
-            submitBtn.style.background = 'var(--error-color)';
-
-            setTimeout(() => {
-                submitBtn.innerHTML = originalText;
-                submitBtn.disabled = false;
-                submitBtn.style.background = '';
-            }, 3000);
-        });
-    });
-}</script>
+ 
 </body>
 </html>
